@@ -1,0 +1,29 @@
+{"event":"details","time":1516456658,"u":"09","run":"0.61","mem":"44.60","data":"----- Initiating master send function for BackupBuddy v7.3.0.1 for basename file: `importbuddy.php`. Post-send deletion: "}
+{"event":"details","time":1516456658,"u":"09","run":"0.61","mem":"44.60","data":"Created fileoptions lock file `send-01wy47xyqr3e.txt.lock` with ID: 5a634ad217f346.92562633."}
+{"event":"details","time":1516456658,"u":"09","run":"0.61","mem":"44.60","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1516456658,"u":"10","run":"0.62","mem":"44.60","data":"Fileoptions `send-01wy47xyqr3e.txt` saved. 1140 bytes written."}
+{"event":"details","time":1516456658,"u":"10","run":"0.62","mem":"44.60","data":"Initializing destination."}
+{"event":"details","time":1516456658,"u":"10","run":"0.62","mem":"44.60","data":"Loading destination init file `\/home3\/mauibeats\/bitcoinbandwagon\/wp-content\/plugins\/backupbuddy\/destinations\/ftp\/init.php`."}
+{"event":"details","time":1516456658,"u":"10","run":"0.62","mem":"44.67","data":"Destination init loaded."}
+{"event":"details","time":1516456658,"u":"10","run":"0.62","mem":"44.67","data":"Initialized `ftp` destination."}
+{"event":"details","time":1516456658,"u":"10","run":"0.62","mem":"44.67","data":"Applying destination-specific defaults."}
+{"event":"details","time":1516456658,"u":"10","run":"0.62","mem":"44.67","data":"Applying global destination defaults."}
+{"event":"details","time":1516456658,"u":"10","run":"0.62","mem":"44.67","data":"Calling destination-specific send method."}
+{"event":"details","time":1516456658,"u":"10","run":"0.62","mem":"44.68","data":"FTP class send() function started."}
+{"event":"details","time":1516456658,"u":"10","run":"0.62","mem":"44.68","data":"Connected to FTP."}
+{"event":"details","time":1516456665,"u":"12","run":"7.64","mem":"44.72","data":"Sending email error notification with subject `BackupBuddy Error - http:\/\/bitcoinbandwagon.org` to recipient(s): `bioniclove@gmail.com`."}
+{"event":"error","time":1516456665,"u":"26","run":"7.78","mem":"45.48","data":"Error #8239823: One or more errors were encountered attempting to send. See log above for more information such as specific error numbers or the following details. Details: ``."}
+{"event":"details","time":1516456665,"u":"26","run":"7.78","mem":"45.48","data":"Looking for remote send log file to send in error email: `\/home3\/mauibeats\/bitcoinbandwagon\/wp-content\/uploads\/pb_backupbuddy\/status-remote_send-01wy47xyqr3e_10i6zun540z9uys.txt`."}
+{"event":"details","time":1516456665,"u":"26","run":"7.78","mem":"45.48","data":"Remote send log file found. Attaching to error email."}
+{"event":"details","time":1516456665,"u":"26","run":"7.78","mem":"45.52","data":"Sending email error notification with subject `BackupBuddy Error - http:\/\/bitcoinbandwagon.org` to recipient(s): `bioniclove@gmail.com`."}
+{"event":"details","time":1516456665,"u":"37","run":"7.89","mem":"45.49","data":"Fileoptions instance #45."}
+{"event":"details","time":1516456665,"u":"37","run":"7.89","mem":"45.49","data":"Created fileoptions lock file `send-01wy47xyqr3e.txt.lock` with ID: 5a634ad95b88e3.83418463."}
+{"event":"details","time":1516456665,"u":"37","run":"7.89","mem":"45.50","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"details","time":1516456665,"u":"37","run":"7.89","mem":"45.50","data":"Fileoptions `send-01wy47xyqr3e.txt` saved. 1260 bytes written."}
+{"event":"details","time":1516456665,"u":"37","run":"7.89","mem":"45.49","data":"Completed send function. Failure. Post-send deletion will be skipped if enabled."}
+{"event":"details","time":1516456665,"u":"37","run":"7.89","mem":"45.49","data":"About to load fileoptions data."}
+{"event":"details","time":1516456665,"u":"37","run":"7.89","mem":"45.49","data":"Fileoptions instance #16."}
+{"event":"details","time":1516456665,"u":"37","run":"7.89","mem":"45.50","data":"Created fileoptions lock file `send-01wy47xyqr3e.txt.lock` with ID: 5a634ad95c06f4.44080375."}
+{"event":"details","time":1516456665,"u":"37","run":"7.89","mem":"45.50","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"details","time":1516456665,"u":"37","run":"7.89","mem":"45.50","data":"Fileoptions data loaded."}
+{"event":"details","time":1516456665,"u":"37","run":"7.89","mem":"45.49","data":"Ending send() function pass."}

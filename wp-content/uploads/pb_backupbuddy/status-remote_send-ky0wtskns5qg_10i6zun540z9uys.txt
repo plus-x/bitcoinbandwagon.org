@@ -1,0 +1,34 @@
+{"event":"details","time":1516458327,"u":"70","run":"0.70","mem":"44.60","data":"----- Initiating master send function for BackupBuddy v7.3.0.1 for basename file: `importbuddy.php`. Post-send deletion: "}
+{"event":"details","time":1516458327,"u":"70","run":"0.70","mem":"44.60","data":"Created fileoptions lock file `send-ky0wtskns5qg.txt.lock` with ID: 5a635157ac8842.84288389."}
+{"event":"details","time":1516458327,"u":"70","run":"0.70","mem":"44.60","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1516458327,"u":"70","run":"0.70","mem":"44.61","data":"Fileoptions `send-ky0wtskns5qg.txt` saved. 1144 bytes written."}
+{"event":"details","time":1516458327,"u":"70","run":"0.70","mem":"44.60","data":"Initializing destination."}
+{"event":"details","time":1516458327,"u":"70","run":"0.71","mem":"44.60","data":"Loading destination init file `\/home3\/mauibeats\/bitcoinbandwagon\/wp-content\/plugins\/backupbuddy\/destinations\/ftp\/init.php`."}
+{"event":"details","time":1516458327,"u":"71","run":"0.71","mem":"44.67","data":"Destination init loaded."}
+{"event":"details","time":1516458327,"u":"71","run":"0.71","mem":"44.67","data":"Initialized `ftp` destination."}
+{"event":"details","time":1516458327,"u":"71","run":"0.71","mem":"44.67","data":"Applying destination-specific defaults."}
+{"event":"details","time":1516458327,"u":"71","run":"0.71","mem":"44.68","data":"Applying global destination defaults."}
+{"event":"details","time":1516458327,"u":"71","run":"0.71","mem":"44.68","data":"Calling destination-specific send method."}
+{"event":"details","time":1516458327,"u":"71","run":"0.71","mem":"44.68","data":"FTP class send() function started."}
+{"event":"details","time":1516458327,"u":"71","run":"0.71","mem":"44.69","data":"Connected to FTP."}
+{"event":"details","time":1516458327,"u":"75","run":"0.76","mem":"44.69","data":"Logged in. Sending backup via FTP\/FTPs ..."}
+{"event":"details","time":1516458327,"u":"75","run":"0.76","mem":"44.69","data":"Passive FTP mode based on settings."}
+{"event":"details","time":1516458327,"u":"76","run":"0.76","mem":"44.69","data":"Entering FTP directory ``."}
+{"event":"details","time":1516458327,"u":"76","run":"0.76","mem":"44.69","data":"About to put to FTP local file `\/home3\/mauibeats\/bitcoinbandwagon\/wp-content\/uploads\/backupbuddy_temp\/importbuddy.php` of size `2.84 MB` to remote file `importbuddy.php`."}
+{"event":"details","time":1516458327,"u":"82","run":"0.82","mem":"44.69","data":"Success completely sending `importbuddy.php` to destination."}
+{"event":"details","time":1516458327,"u":"82","run":"0.82","mem":"44.69","data":"No FTP file limit to enforce."}
+{"event":"details","time":1516458327,"u":"82","run":"0.82","mem":"44.69","data":"About to load fileoptions data."}
+{"event":"details","time":1516458327,"u":"82","run":"0.82","mem":"44.69","data":"Fileoptions instance #13."}
+{"event":"details","time":1516458327,"u":"82","run":"0.82","mem":"44.69","data":"Created fileoptions lock file `send-ky0wtskns5qg.txt.lock` with ID: 5a635157c9d001.61298730."}
+{"event":"details","time":1516458327,"u":"82","run":"0.82","mem":"44.70","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"details","time":1516458327,"u":"82","run":"0.82","mem":"44.70","data":"Fileoptions data loaded."}
+{"event":"details","time":1516458327,"u":"82","run":"0.83","mem":"44.70","data":"Fileoptions `send-ky0wtskns5qg.txt` saved. 1180 bytes written."}
+{"event":"details","time":1516458327,"u":"82","run":"0.83","mem":"44.68","data":"Completed send function. Success."}
+{"event":"details","time":1516458327,"u":"82","run":"0.83","mem":"44.68","data":"About to load fileoptions data."}
+{"event":"details","time":1516458327,"u":"83","run":"0.83","mem":"44.68","data":"Fileoptions instance #16."}
+{"event":"details","time":1516458327,"u":"83","run":"0.83","mem":"44.68","data":"Created fileoptions lock file `send-ky0wtskns5qg.txt.lock` with ID: 5a635157cab128.97640021."}
+{"event":"details","time":1516458327,"u":"83","run":"0.83","mem":"44.68","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"details","time":1516458327,"u":"83","run":"0.83","mem":"44.68","data":"Fileoptions data loaded."}
+{"event":"details","time":1516458327,"u":"83","run":"0.83","mem":"44.68","data":"Post-send deletion not enabled."}
+{"event":"details","time":1516458327,"u":"83","run":"0.83","mem":"44.68","data":"Finished sending email NOT enabled. Skipping."}
+{"event":"details","time":1516458328,"u":"51","run":"1.52","mem":"45.03","data":"Ending send() function pass."}
