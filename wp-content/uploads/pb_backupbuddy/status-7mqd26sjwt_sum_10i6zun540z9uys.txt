@@ -1,0 +1,749 @@
+{"event":"details","time":1522217847,"u":"58","run":"1.38","mem":"48.00","data":"BackupBuddy v7.3.0.1 using WordPress v4.9.1 on Linux."}
+{"event":"details","time":1522217847,"u":"58","run":"1.38","mem":"48.00","data":"Calculated archive file: `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_backups\/backup-cryptobandwagon_org-2018_03_28-06_17am-full-7mqd26sjwt.zip`."}
+{"event":"startFunction","time":1522217847,"u":"58","run":"1.38","mem":"48.00","data":"{\"function\":\"pre_backup\",\"title\":\"Getting ready to backup\"}"}
+{"event":"details","time":1522217847,"u":"59","run":"1.38","mem":"48.00","data":"Performing pre-backup procedures."}
+{"event":"message","time":1522217847,"u":"59","run":"1.38","mem":"48.00","data":"Full backup mode."}
+{"event":"details","time":1522217847,"u":"59","run":"1.38","mem":"48.00","data":"Flushing will not be skipped (default)."}
+{"event":"details","time":1522217847,"u":"59","run":"1.38","mem":"48.00","data":"Verifying directories ..."}
+{"event":"details","time":1522217847,"u":"59","run":"1.38","mem":"48.00","data":"Temporary directory invalid. Updating from `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_temp\/` to default."}
+{"event":"details","time":1522217847,"u":"59","run":"1.39","mem":"48.03","data":"Directories verified."}
+{"event":"details","time":1522217847,"u":"59","run":"1.39","mem":"48.03","data":"Backup serial generated: `7mqd26sjwt`."}
+{"event":"details","time":1522217847,"u":"59","run":"1.39","mem":"48.03","data":"About to load fileoptions data in create mode."}
+{"event":"details","time":1522217847,"u":"59","run":"1.39","mem":"48.13","data":"Fileoptions instance #40."}
+{"event":"details","time":1522217847,"u":"59","run":"1.39","mem":"48.13","data":"Created fileoptions lock file `7mqd26sjwt.txt.lock` with ID: 5abb337791b329.60260959."}
+{"event":"details","time":1522217847,"u":"59","run":"1.39","mem":"48.13","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1522217847,"u":"59","run":"1.39","mem":"48.13","data":"Fileoptions data loaded."}
+{"event":"details","time":1522217847,"u":"59","run":"1.39","mem":"48.13","data":"Updating statistics for last backup start."}
+{"event":"details","time":1522217847,"u":"59","run":"1.39","mem":"48.14","data":"Active WordPress plugins (11): `backupbuddy\/backupbuddy.php; coming-soon\/coming-soon.php; custom-css-js\/custom-css-js.php; divi-builder\/divi-builder.php; google-analytics-for-wordpress\/googleanalytics.php; mailchimp-for-wp\/mailchimp-for-wp.php; mojo-marketplace-wp-plugin\/mojo-marketplace.php; optinmonster\/optin-monster-wp-api.php; popups\/popups.php; process-steps-template-designer\/cool-process.php; wpforms-lite\/wpforms.php`."}
+{"event":"startSubFunction","time":1522217847,"u":"59","run":"1.39","mem":"48.14","data":"{\"function\":\"wp_plugins_found\",\"title\":\"Found 11 active WordPress plugins.\"}"}
+{"event":"details","time":1522217847,"u":"59","run":"1.39","mem":"48.14","data":"Initially calculated relative backup storage directory: `\/wp-content\/uploads\/backupbuddy_backups\/."}
+{"event":"details","time":1522217847,"u":"59","run":"1.39","mem":"48.15","data":"Initial directory exclusions (after filter): `\/.sucuriquarantine\/; \/wp-content\/uploads\/sucuri\/; \/wp-content\/envato-backups\/; \/wp-content\/uploads\/backwpup; \/wp-content\/backup-db\/; \/wp-snapshots\/; \/wp-content\/ai1wm-backups\/; \/wp-content\/plugins\/wordfence\/tmp\/; \/wp-content\/cache\/supercache\/; \/error_log; \/wp-content\/uploads\/backupbuddy_backups\/; \/wp-content\/uploads\/pb_backupbuddy\/; \/importbuddy\/; \/importbuddy.php`."}
+{"event":"startSubFunction","time":1522217847,"u":"60","run":"1.39","mem":"48.15","data":"{\"function\":\"file_excludes\",\"title\":\"Found 14 file or directory exclusions.\"}"}
+{"event":"details","time":1522217847,"u":"60","run":"1.39","mem":"48.15","data":"Temp directory: `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/`."}
+{"event":"details","time":1522217847,"u":"60","run":"1.39","mem":"48.15","data":"Backup root: `\/home3\/mauibeats\/cryptobandwagon.org\/`."}
+{"event":"details","time":1522217847,"u":"60","run":"1.39","mem":"48.15","data":"wp-config.php found in normal location."}
+{"event":"details","time":1522217847,"u":"60","run":"1.39","mem":"48.15","data":"Calculating mysql database tables to backup."}
+{"event":"details","time":1522217847,"u":"60","run":"1.39","mem":"48.15","data":"Base database dump mode (before inclusions\/exclusions): `prefix`."}
+{"event":"details","time":1522217847,"u":"60","run":"1.39","mem":"48.15","data":"Determining database tables with prefix `wp_`."}
+{"event":"startAction","time":1522217847,"u":"60","run":"1.39","mem":"48.15","data":"schemaTables"}
+{"event":"finishAction","time":1522217847,"u":"60","run":"1.40","mem":"48.15","data":"schemaTables"}
+{"event":"details","time":1522217847,"u":"60","run":"1.40","mem":"48.15","data":"Base database tables based on settings (12 tables): `wp_commentmeta,wp_comments,wp_links,wp_options,wp_postmeta,wp_posts,wp_term_relationships,wp_term_taxonomy,wp_termmeta,wp_terms,wp_usermeta,wp_users`"}
+{"event":"details","time":1522217847,"u":"60","run":"1.40","mem":"48.15","data":"Database tables after addition (12 tables): `wp_commentmeta,wp_comments,wp_links,wp_options,wp_postmeta,wp_posts,wp_term_relationships,wp_term_taxonomy,wp_termmeta,wp_terms,wp_usermeta,wp_users`"}
+{"event":"details","time":1522217847,"u":"60","run":"1.40","mem":"48.15","data":"Database tables after exclusion (12 tables): `wp_commentmeta,wp_comments,wp_links,wp_options,wp_postmeta,wp_posts,wp_term_relationships,wp_term_taxonomy,wp_termmeta,wp_terms,wp_usermeta,wp_users`"}
+{"event":"startSubFunction","time":1522217847,"u":"60","run":"1.40","mem":"48.15","data":"{\"function\":\"calculate_tables\",\"title\":\"Found 12 tables to backup based on settings.\",\"more\":\"Tables: wp_commentmeta, wp_comments, wp_links, wp_options, wp_postmeta, wp_posts, wp_term_relationships, wp_term_taxonomy, wp_termmeta, wp_terms, wp_usermeta, wp_users\"}"}
+{"event":"details","time":1522217847,"u":"63","run":"1.43","mem":"48.19","data":"Total calculated database size: `7.25 MB`."}
+{"event":"details","time":1522217847,"u":"63","run":"1.43","mem":"48.19","data":"Breaking out tables ENABLED based on settings. Tables to be broken out into individual steps: `wp_posts, wp_postmeta`."}
+{"event":"details","time":1522217847,"u":"63","run":"1.43","mem":"48.20","data":"Integrity check will be performed based on settings for this profile."}
+{"event":"details","time":1522217847,"u":"63","run":"1.43","mem":"48.21","data":"Fileoptions `7mqd26sjwt.txt` saved. 5752 bytes written."}
+{"event":"details","time":1522217847,"u":"63","run":"1.43","mem":"48.21","data":"Creating DAT (data) file snapshotting site & backup information."}
+{"event":"details","time":1522217847,"u":"63","run":"1.43","mem":"48.21","data":"wp-config.php found in normal location."}
+{"event":"startSubFunction","time":1522217847,"u":"63","run":"1.43","mem":"48.17","data":"{\"function\":\"post_count\",\"title\":\"Found 4 posts, 13 pages, and 3 comments.\"}"}
+{"event":"startSubFunction","time":1522217847,"u":"63","run":"1.43","mem":"48.17","data":"{\"function\":\"post_count\",\"title\":\"Found 2 user accounts.\"}"}
+{"event":"details","time":1522217847,"u":"63","run":"1.43","mem":"48.18","data":"DAT file contents (sans database user\/pass): Array; (;     [backupbuddy_version] => 7.3.0.1;     [wordpress_version] => 4.9.1;     [backup_time] => 1522217847;     [backup_type] => full;     [profile] => Array;         (;             [type] => full;             [title] => Complete Backup;             [skip_database_dump] => 0;             [mysqldump_additional_includes] => ;             [mysqldump_additional_excludes] => ;             [backup_nonwp_tables] => 0;             [excludes] => ;             [integrity_check] => 1;             [profile_globaltables] => 1;             [profile_globalexcludes] => 1;             [backup_mode] => 2;         ); ;     [default_profile] => Array;         (;             [type] => defaults;             [title] => Global Defaults;             [skip_database_dump] => 0;             [backup_nonwp_tables] => 0;             [integrity_check] => 1;             [mysqldump_additional_includes] => ;             [mysqldump_additional_excludes] => ;             [excludes] => ;             [custom_root] => ;         ); ;     [serial] => 7mqd26sjwt;     [trigger] => manual;     [wp-config_in_parent] => ;     [deployment_direction] => ;     [abspath] => \/home3\/mauibeats\/cryptobandwagon.org\/;     [siteurl] => http:\/\/cryptobandwagon.org;     [homeurl] => http:\/\/cryptobandwagon.org;     [blogname] => Crypto Bandwagon;     [blogdescription] => The Secret to Crypto Success!;     [active_plugins] => backupbuddy\/backupbuddy.php, coming-soon\/coming-soon.php, custom-css-js\/custom-css-js.php, divi-builder\/divi-builder.php, google-analytics-for-wordpress\/googleanalytics.php, mailchimp-for-wp\/mailchimp-for-wp.php, mojo-marketplace-wp-plugin\/mojo-marketplace.php, optinmonster\/optin-monster-wp-api.php, popups\/popups.php, process-steps-template-designer\/cool-process.php, wpforms-lite\/wpforms.php;     [posts] => 4;     [pages] => 13;     [comments] => 3;     [users] => 2;     [wp_content_url] => http:\/\/cryptobandwagon.org\/wp-content;     [wp_content_dir] => \/home3\/mauibeats\/cryptobandwagon.org\/wp-content;     [db_charset] => utf8mb4;     [db_collate] => utf8mb4_unicode_ci;     [db_prefix] => wp_;     [db_server] => localhost;     [db_name] => mauibeat_cryptobandwagon;     [db_user] => ;     [db_password] => ;     [db_exclusions] => ;     [db_inclusions] => ;     [db_version] => 5.5.51;     [breakout_tables] => Array;         (;             [0] => wp_posts;             [1] => wp_postmeta;         ); ;     [tables_sizes] => Array;         (;             [wp_commentmeta] => 4096;             [wp_comments] => 7492;             [wp_links] => 1024;             [wp_options] => 1662400;             [wp_postmeta] => 179988;             [wp_posts] => 5697616;             [wp_term_relationships] => 6296;             [wp_term_taxonomy] => 4424;             [wp_termmeta] => 4096;             [wp_terms] => 13576;             [wp_usermeta] => 13800;             [wp_users] => 8408;         ); ;     [force_single_db_file] => ;     [skip_database_dump] => 0;     [is_multisite] => ;     [is_multisite_export] => ;     [domain] => ;     [path] => ;     [upload_url] => ;     [upload_url_rewrite] => ; ); "}
+{"event":"details","time":1522217847,"u":"64","run":"1.43","mem":"48.18","data":"Finished creating DAT (data) file."}
+{"event":"details","time":1522217847,"u":"64","run":"1.43","mem":"48.17","data":"Generating ImportBuddy tool to include in backup archive: `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/importbuddy.php`."}
+{"event":"startAction","time":1522217847,"u":"64","run":"1.43","mem":"48.17","data":"importbuddyCreation"}
+{"event":"details","time":1522217847,"u":"64","run":"1.43","mem":"48.17","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1522217847,"u":"64","run":"1.43","mem":"48.17","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1522217847,"u":"64","run":"1.43","mem":"48.17","data":"Reported PHP execution time - Configured: 30; Original: 30; Current: 30"}
+{"event":"details","time":1522217847,"u":"64","run":"1.43","mem":"48.17","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1522217847,"u":"64","run":"1.43","mem":"48.17","data":"Reported PHP memory limits - Configured: 256M; Original: 256M; Current: 256M"}
+{"event":"warning","time":1522217847,"u":"64","run":"1.43","mem":"48.17","data":"Warning #9032 - You have not set an ImportBuddy password on the BackupBuddy Settings page. Once this password is set a copy of the importbuddy.php file needed to restore your backup will be included in Full backup zip files for convenience. It may manually be downloaded from the Restore \/ Migrate page."}
+{"event":"finishAction","time":1522217847,"u":"64","run":"1.43","mem":"48.17","data":"importbuddyCreation"}
+{"event":"details","time":1522217847,"u":"64","run":"1.43","mem":"48.17","data":"ImportBuddy generation complete."}
+{"event":"details","time":1522217847,"u":"64","run":"1.43","mem":"48.17","data":"Deleting malware transient."}
+{"event":"details","time":1522217847,"u":"64","run":"1.44","mem":"48.18","data":"Fileoptions `7mqd26sjwt.txt` saved. 5932 bytes written."}
+{"event":"details","time":1522217847,"u":"64","run":"1.44","mem":"48.17","data":"Finished pre-backup procedures."}
+{"event":"milestone","time":1522217847,"u":"64","run":"1.44","mem":"48.17","data":"finish_settings"}
+{"event":"finishFunction","time":1522217847,"u":"64","run":"1.44","mem":"48.17","data":"{\"function\":\"pre_backup\"}"}
+{"event":"message","time":1522217847,"u":"64","run":"1.44","mem":"48.16","data":"Running in modern backup mode based on settings. Mode value: `2`. Trigger: `manual`."}
+{"event":"warnings","time":1522217847,"u":"64","run":"1.44","mem":"48.16","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1522217847,"u":"64","run":"1.44","mem":"48.16","data":"Scheduling Cron for `7mqd26sjwt`."}
+{"event":"details","time":1522217847,"u":"70","run":"1.50","mem":"48.18","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1522217847,"u":"70","run":"1.50","mem":"48.18","data":"Pinging mysqli."}
+{"event":"details","time":1522217847,"u":"71","run":"1.50","mem":"48.18","data":"Database Server connection status verified."}
+{"event":"details","time":1522217847,"u":"71","run":"1.50","mem":"48.18","data":"Scheduling next step to run at `1522217692` (localized time: Mar 28, 2018 6:14:52 am), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `7mqd26sjwt`."}
+{"event":"details","time":1522217847,"u":"71","run":"1.51","mem":"48.19","data":"Next step scheduled."}
+{"event":"startAction","time":1522217847,"u":"71","run":"1.51","mem":"48.19","data":"cronPass"}
+{"event":"cronParams","time":1522217847,"u":"71","run":"1.51","mem":"48.19","data":"eyJ0aW1lIjoxNTIyMjE3NjkyLCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjdtcWQyNnNqd3QiXX0="}
+{"event":"details","time":1522217847,"u":"71","run":"1.51","mem":"48.18","data":"Not calling spawn_cron()."}
+{"event":"details","time":1522217847,"u":"71","run":"1.51","mem":"48.18","data":"About to run next step. If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1522217852,"u":"24","run":"0.36","mem":"38.08","data":"--- New PHP process."}
+{"event":"details","time":1522217852,"u":"24","run":"0.36","mem":"38.08","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1522217852,"u":"24","run":"0.36","mem":"38.08","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1522217852,"u":"24","run":"0.36","mem":"38.08","data":"Reported PHP execution time - Configured: 30; Original: 30; Current: 30"}
+{"event":"details","time":1522217852,"u":"24","run":"0.36","mem":"38.08","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1522217852,"u":"24","run":"0.36","mem":"38.08","data":"Reported PHP memory limits - Configured: 256M; Original: 256M; Current: 256M"}
+{"event":"message","time":1522217852,"u":"24","run":"0.36","mem":"38.08","data":"Running process for serial `7mqd26sjwt`..."}
+{"event":"details","time":1522217852,"u":"27","run":"0.38","mem":"39.77","data":"About to load fileoptions data for serial `7mqd26sjwt`."}
+{"event":"details","time":1522217852,"u":"27","run":"0.38","mem":"39.87","data":"Fileoptions instance #39."}
+{"event":"details","time":1522217852,"u":"27","run":"0.38","mem":"39.88","data":"Created fileoptions lock file `7mqd26sjwt.txt.lock` with ID: 5abb337c42bf78.42633344."}
+{"event":"details","time":1522217852,"u":"27","run":"0.38","mem":"39.91","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217852,"u":"27","run":"0.39","mem":"39.91","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1522217852,"u":"27","run":"0.39","mem":"39.91","data":"cronPass"}
+{"event":"details","time":1522217852,"u":"27","run":"0.39","mem":"39.92","data":"Fileoptions `7mqd26sjwt.txt` saved. 5976 bytes written."}
+{"event":"details","time":1522217852,"u":"27","run":"0.39","mem":"39.91","data":"Found next step to run: `backup_create_database_dump`."}
+{"event":"details","time":1522217852,"u":"27","run":"0.39","mem":"39.91","data":"Peak memory usage: 39.975 MB"}
+{"event":"details","time":1522217852,"u":"27","run":"0.39","mem":"39.91","data":"-----"}
+{"event":"details","time":1522217852,"u":"27","run":"0.39","mem":"39.91","data":"Starting step function `backup_create_database_dump`. Attempt #1."}
+{"event":"startFunction","time":1522217852,"u":"27","run":"0.39","mem":"39.91","data":"{\"function\":\"backup_create_database_dump\",\"title\":\"Backing up database\"}"}
+{"event":"milestone","time":1522217852,"u":"27","run":"0.39","mem":"39.91","data":"start_database"}
+{"event":"message","time":1522217852,"u":"27","run":"0.39","mem":"39.91","data":"Starting database backup process."}
+{"event":"details","time":1522217852,"u":"29","run":"0.41","mem":"40.16","data":"PHP-based mysqldump (if applicable) max rows per select set to 1000."}
+{"event":"details","time":1522217852,"u":"31","run":"0.42","mem":"40.17","data":"Database host for dumping: `localhost`"}
+{"event":"details","time":1522217852,"u":"31","run":"0.42","mem":"40.17","data":"Loading mysqlbuddy library."}
+{"event":"details","time":1522217852,"u":"31","run":"0.42","mem":"40.17","data":"Mysql server default directories: `\/usr\/bin\/,\/usr\/bin\/mysql\/,\/usr\/local\/bin\/`"}
+{"event":"details","time":1522217852,"u":"31","run":"0.42","mem":"40.17","data":"mysqlbuddy: Force method of `1` passed."}
+{"event":"message","time":1522217852,"u":"31","run":"0.42","mem":"40.17","data":"mysqlbuddy: Settings overriding automatic detection of available database dump methods. Using forced override methods: `php`."}
+{"event":"message","time":1522217852,"u":"31","run":"0.42","mem":"40.17","data":"mysqlbuddy: Detected database dump methods: `php`."}
+{"event":"details","time":1522217852,"u":"31","run":"0.42","mem":"40.17","data":"If applicable, breaking up with max execution time `30` seconds."}
+{"event":"details","time":1522217852,"u":"31","run":"0.42","mem":"40.17","data":"This server's mysql version: `5.5.51`."}
+{"event":"milestone","time":1522217852,"u":"31","run":"0.42","mem":"40.17","data":"start_database"}
+{"event":"message","time":1522217852,"u":"31","run":"0.42","mem":"40.17","data":"Starting database dump procedure."}
+{"event":"details","time":1522217852,"u":"31","run":"0.42","mem":"40.17","data":"mysqlbuddy: Output directory: `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/`."}
+{"event":"details","time":1522217852,"u":"31","run":"0.42","mem":"40.17","data":"Table dump count: `10`."}
+{"event":"details","time":1522217852,"u":"31","run":"0.42","mem":"40.17","data":"Preparing to dump using available method(s) by priority. Methods: `php`"}
+{"event":"details","time":1522217852,"u":"31","run":"0.42","mem":"40.17","data":"mysqlbuddy: Attempting dump method `php`."}
+{"event":"details","time":1522217852,"u":"31","run":"0.42","mem":"40.17","data":"Loading DB kicker for use leter in case database goes away."}
+{"event":"details","time":1522217852,"u":"31","run":"0.43","mem":"40.20","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1522217852,"u":"31","run":"0.43","mem":"40.20","data":"Dumping database table `wp_commentmeta`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1522217852,"u":"31","run":"0.43","mem":"40.20","data":"wp_commentmeta"}
+{"event":"details","time":1522217852,"u":"31","run":"0.43","mem":"40.20","data":"SQL dump file `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_commentmeta.sql`."}
+{"event":"details","time":1522217852,"u":"31","run":"0.43","mem":"40.20","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1522217852,"u":"31","run":"0.43","mem":"40.20","data":"wp_commentmeta.sql"}
+{"event":"details","time":1522217852,"u":"31","run":"0.43","mem":"40.20","data":"Got `0` rows from `wp_commentmeta` of `1000` max."}
+{"event":"details","time":1522217852,"u":"31","run":"0.43","mem":"40.21","data":"Dumped `0` rows total from `wp_commentmeta`. No rows remain."}
+{"event":"details","time":1522217852,"u":"31","run":"0.43","mem":"40.21","data":"Pinging mysqli."}
+{"event":"details","time":1522217852,"u":"31","run":"0.43","mem":"40.21","data":"Database Server connection status verified."}
+{"event":"details","time":1522217852,"u":"31","run":"0.43","mem":"40.21","data":"Finished dumping database table `wp_commentmeta`."}
+{"event":"finishTableDump","time":1522217852,"u":"31","run":"0.43","mem":"40.21","data":"wp_commentmeta"}
+{"event":"details","time":1522217852,"u":"31","run":"0.43","mem":"40.21","data":"Database SQL dump file (wp_commentmeta.sql) size: 531 Bytes"}
+{"event":"sqlSize","time":1522217852,"u":"31","run":"0.43","mem":"40.21","data":"531"}
+{"event":"details","time":1522217852,"u":"31","run":"0.43","mem":"40.21","data":"About to flush..."}
+{"event":"details","time":1522217852,"u":"31","run":"0.43","mem":"40.22","data":"Dumping database table `wp_comments`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1522217852,"u":"31","run":"0.43","mem":"40.22","data":"wp_comments"}
+{"event":"details","time":1522217852,"u":"31","run":"0.43","mem":"40.22","data":"SQL dump file `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_comments.sql`."}
+{"event":"details","time":1522217852,"u":"31","run":"0.43","mem":"40.22","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1522217852,"u":"31","run":"0.43","mem":"40.22","data":"wp_comments.sql"}
+{"event":"details","time":1522217852,"u":"32","run":"0.43","mem":"40.21","data":"Got `1` rows from `wp_comments` of `1000` max."}
+{"event":"details","time":1522217852,"u":"32","run":"0.43","mem":"40.25","data":"Dumped `1` rows total from `wp_comments`. No rows remain."}
+{"event":"details","time":1522217852,"u":"32","run":"0.43","mem":"40.25","data":"Pinging mysqli."}
+{"event":"details","time":1522217852,"u":"32","run":"0.43","mem":"40.25","data":"Database Server connection status verified."}
+{"event":"details","time":1522217852,"u":"32","run":"0.43","mem":"40.25","data":"Finished dumping database table `wp_comments`."}
+{"event":"finishTableDump","time":1522217852,"u":"32","run":"0.43","mem":"40.25","data":"wp_comments"}
+{"event":"details","time":1522217852,"u":"32","run":"0.43","mem":"40.25","data":"Database SQL dump file (wp_comments.sql) size: 2 KB"}
+{"event":"sqlSize","time":1522217852,"u":"32","run":"0.43","mem":"40.25","data":"1950"}
+{"event":"details","time":1522217852,"u":"32","run":"0.43","mem":"40.25","data":"About to flush..."}
+{"event":"details","time":1522217852,"u":"32","run":"0.43","mem":"40.25","data":"Dumping database table `wp_links`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1522217852,"u":"32","run":"0.43","mem":"40.25","data":"wp_links"}
+{"event":"details","time":1522217852,"u":"32","run":"0.43","mem":"40.25","data":"SQL dump file `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_links.sql`."}
+{"event":"details","time":1522217852,"u":"32","run":"0.43","mem":"40.25","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1522217852,"u":"32","run":"0.43","mem":"40.25","data":"wp_links.sql"}
+{"event":"details","time":1522217852,"u":"32","run":"0.44","mem":"40.21","data":"Got `0` rows from `wp_links` of `1000` max."}
+{"event":"details","time":1522217852,"u":"32","run":"0.44","mem":"40.24","data":"Dumped `0` rows total from `wp_links`. No rows remain."}
+{"event":"details","time":1522217852,"u":"32","run":"0.44","mem":"40.24","data":"Pinging mysqli."}
+{"event":"details","time":1522217852,"u":"32","run":"0.44","mem":"40.24","data":"Database Server connection status verified."}
+{"event":"details","time":1522217852,"u":"32","run":"0.44","mem":"40.24","data":"Finished dumping database table `wp_links`."}
+{"event":"finishTableDump","time":1522217852,"u":"32","run":"0.44","mem":"40.24","data":"wp_links"}
+{"event":"details","time":1522217852,"u":"32","run":"0.44","mem":"40.24","data":"Database SQL dump file (wp_links.sql) size: 1 KB"}
+{"event":"sqlSize","time":1522217852,"u":"32","run":"0.44","mem":"40.24","data":"1138"}
+{"event":"details","time":1522217852,"u":"32","run":"0.44","mem":"40.24","data":"About to flush..."}
+{"event":"details","time":1522217852,"u":"32","run":"0.44","mem":"40.24","data":"Dumping database table `wp_options`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1522217852,"u":"32","run":"0.44","mem":"40.24","data":"wp_options"}
+{"event":"details","time":1522217852,"u":"32","run":"0.44","mem":"40.24","data":"SQL dump file `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_options.sql`."}
+{"event":"details","time":1522217852,"u":"32","run":"0.44","mem":"40.24","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1522217852,"u":"32","run":"0.44","mem":"40.24","data":"wp_options.sql"}
+{"event":"details","time":1522217852,"u":"33","run":"0.45","mem":"41.99","data":"Got `260` rows from `wp_options` of `1000` max."}
+{"event":"details","time":1522217852,"u":"37","run":"0.49","mem":"41.99","data":"Dumped `260` rows total from `wp_options`. No rows remain."}
+{"event":"details","time":1522217852,"u":"37","run":"0.49","mem":"41.99","data":"Pinging mysqli."}
+{"event":"details","time":1522217852,"u":"37","run":"0.49","mem":"41.99","data":"Database Server connection status verified."}
+{"event":"details","time":1522217852,"u":"37","run":"0.49","mem":"41.99","data":"Finished dumping database table `wp_options`."}
+{"event":"finishTableDump","time":1522217852,"u":"37","run":"0.49","mem":"41.99","data":"wp_options"}
+{"event":"details","time":1522217852,"u":"37","run":"0.49","mem":"41.99","data":"Database SQL dump file (wp_options.sql) size: 1.45 MB"}
+{"event":"sqlSize","time":1522217852,"u":"37","run":"0.49","mem":"41.99","data":"1519752"}
+{"event":"details","time":1522217852,"u":"37","run":"0.49","mem":"41.99","data":"About to flush..."}
+{"event":"details","time":1522217852,"u":"37","run":"0.49","mem":"41.99","data":"Dumping database table `wp_term_relationships`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1522217852,"u":"37","run":"0.49","mem":"41.99","data":"wp_term_relationships"}
+{"event":"details","time":1522217852,"u":"37","run":"0.49","mem":"41.99","data":"SQL dump file `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_term_relationships.sql`."}
+{"event":"details","time":1522217852,"u":"37","run":"0.49","mem":"41.99","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1522217852,"u":"37","run":"0.49","mem":"41.99","data":"wp_term_relationships.sql"}
+{"event":"details","time":1522217852,"u":"38","run":"0.49","mem":"40.28","data":"Got `53` rows from `wp_term_relationships` of `1000` max."}
+{"event":"details","time":1522217852,"u":"38","run":"0.49","mem":"40.29","data":"Dumped `53` rows total from `wp_term_relationships`. No rows remain."}
+{"event":"details","time":1522217852,"u":"38","run":"0.49","mem":"40.29","data":"Pinging mysqli."}
+{"event":"details","time":1522217852,"u":"38","run":"0.49","mem":"40.29","data":"Database Server connection status verified."}
+{"event":"details","time":1522217852,"u":"38","run":"0.49","mem":"40.29","data":"Finished dumping database table `wp_term_relationships`."}
+{"event":"finishTableDump","time":1522217852,"u":"38","run":"0.49","mem":"40.29","data":"wp_term_relationships"}
+{"event":"details","time":1522217852,"u":"38","run":"0.49","mem":"40.29","data":"Database SQL dump file (wp_term_relationships.sql) size: 4 KB"}
+{"event":"sqlSize","time":1522217852,"u":"38","run":"0.49","mem":"40.29","data":"3747"}
+{"event":"details","time":1522217852,"u":"38","run":"0.49","mem":"40.29","data":"About to flush..."}
+{"event":"details","time":1522217852,"u":"38","run":"0.50","mem":"40.29","data":"Dumping database table `wp_term_taxonomy`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1522217852,"u":"38","run":"0.50","mem":"40.29","data":"wp_term_taxonomy"}
+{"event":"details","time":1522217852,"u":"38","run":"0.50","mem":"40.29","data":"SQL dump file `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_term_taxonomy.sql`."}
+{"event":"details","time":1522217852,"u":"38","run":"0.50","mem":"40.29","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1522217852,"u":"38","run":"0.50","mem":"40.29","data":"wp_term_taxonomy.sql"}
+{"event":"details","time":1522217852,"u":"38","run":"0.50","mem":"40.23","data":"Got `8` rows from `wp_term_taxonomy` of `1000` max."}
+{"event":"details","time":1522217852,"u":"38","run":"0.50","mem":"40.24","data":"Dumped `8` rows total from `wp_term_taxonomy`. No rows remain."}
+{"event":"details","time":1522217852,"u":"38","run":"0.50","mem":"40.24","data":"Pinging mysqli."}
+{"event":"details","time":1522217852,"u":"38","run":"0.50","mem":"40.24","data":"Database Server connection status verified."}
+{"event":"details","time":1522217852,"u":"38","run":"0.50","mem":"40.24","data":"Finished dumping database table `wp_term_taxonomy`."}
+{"event":"finishTableDump","time":1522217852,"u":"38","run":"0.50","mem":"40.24","data":"wp_term_taxonomy"}
+{"event":"details","time":1522217852,"u":"38","run":"0.50","mem":"40.24","data":"Database SQL dump file (wp_term_taxonomy.sql) size: 1 KB"}
+{"event":"sqlSize","time":1522217852,"u":"38","run":"0.50","mem":"40.24","data":"1317"}
+{"event":"details","time":1522217852,"u":"38","run":"0.50","mem":"40.24","data":"About to flush..."}
+{"event":"details","time":1522217852,"u":"38","run":"0.50","mem":"40.24","data":"Dumping database table `wp_termmeta`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1522217852,"u":"38","run":"0.50","mem":"40.24","data":"wp_termmeta"}
+{"event":"details","time":1522217852,"u":"38","run":"0.50","mem":"40.24","data":"SQL dump file `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_termmeta.sql`."}
+{"event":"details","time":1522217852,"u":"38","run":"0.50","mem":"40.24","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1522217852,"u":"38","run":"0.50","mem":"40.24","data":"wp_termmeta.sql"}
+{"event":"details","time":1522217852,"u":"39","run":"0.50","mem":"40.21","data":"Got `0` rows from `wp_termmeta` of `1000` max."}
+{"event":"details","time":1522217852,"u":"39","run":"0.50","mem":"40.22","data":"Dumped `0` rows total from `wp_termmeta`. No rows remain."}
+{"event":"details","time":1522217852,"u":"39","run":"0.50","mem":"40.22","data":"Pinging mysqli."}
+{"event":"details","time":1522217852,"u":"39","run":"0.50","mem":"40.22","data":"Database Server connection status verified."}
+{"event":"details","time":1522217852,"u":"39","run":"0.50","mem":"40.22","data":"Finished dumping database table `wp_termmeta`."}
+{"event":"finishTableDump","time":1522217852,"u":"39","run":"0.50","mem":"40.22","data":"wp_termmeta"}
+{"event":"details","time":1522217852,"u":"39","run":"0.50","mem":"40.22","data":"Database SQL dump file (wp_termmeta.sql) size: 513 Bytes"}
+{"event":"sqlSize","time":1522217852,"u":"39","run":"0.50","mem":"40.22","data":"513"}
+{"event":"details","time":1522217852,"u":"39","run":"0.50","mem":"40.22","data":"About to flush..."}
+{"event":"details","time":1522217852,"u":"39","run":"0.50","mem":"40.22","data":"Dumping database table `wp_terms`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1522217852,"u":"39","run":"0.50","mem":"40.22","data":"wp_terms"}
+{"event":"details","time":1522217852,"u":"39","run":"0.50","mem":"40.22","data":"SQL dump file `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_terms.sql`."}
+{"event":"details","time":1522217852,"u":"39","run":"0.50","mem":"40.22","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1522217852,"u":"39","run":"0.50","mem":"40.22","data":"wp_terms.sql"}
+{"event":"details","time":1522217852,"u":"39","run":"0.51","mem":"40.22","data":"Got `8` rows from `wp_terms` of `1000` max."}
+{"event":"details","time":1522217852,"u":"39","run":"0.51","mem":"40.23","data":"Dumped `8` rows total from `wp_terms`. No rows remain."}
+{"event":"details","time":1522217852,"u":"39","run":"0.51","mem":"40.23","data":"Pinging mysqli."}
+{"event":"details","time":1522217852,"u":"39","run":"0.51","mem":"40.23","data":"Database Server connection status verified."}
+{"event":"details","time":1522217852,"u":"39","run":"0.51","mem":"40.23","data":"Finished dumping database table `wp_terms`."}
+{"event":"finishTableDump","time":1522217852,"u":"39","run":"0.51","mem":"40.23","data":"wp_terms"}
+{"event":"details","time":1522217852,"u":"39","run":"0.51","mem":"40.23","data":"Database SQL dump file (wp_terms.sql) size: 1 KB"}
+{"event":"sqlSize","time":1522217852,"u":"39","run":"0.51","mem":"40.23","data":"1065"}
+{"event":"details","time":1522217852,"u":"39","run":"0.51","mem":"40.23","data":"About to flush..."}
+{"event":"details","time":1522217852,"u":"39","run":"0.51","mem":"40.23","data":"Dumping database table `wp_usermeta`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1522217852,"u":"39","run":"0.51","mem":"40.23","data":"wp_usermeta"}
+{"event":"details","time":1522217852,"u":"39","run":"0.51","mem":"40.23","data":"SQL dump file `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_usermeta.sql`."}
+{"event":"details","time":1522217852,"u":"39","run":"0.51","mem":"40.23","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1522217852,"u":"39","run":"0.51","mem":"40.23","data":"wp_usermeta.sql"}
+{"event":"details","time":1522217852,"u":"39","run":"0.51","mem":"40.28","data":"Got `41` rows from `wp_usermeta` of `1000` max."}
+{"event":"details","time":1522217852,"u":"40","run":"0.51","mem":"40.29","data":"Dumped `41` rows total from `wp_usermeta`. No rows remain."}
+{"event":"details","time":1522217852,"u":"40","run":"0.51","mem":"40.29","data":"Pinging mysqli."}
+{"event":"details","time":1522217852,"u":"40","run":"0.51","mem":"40.29","data":"Database Server connection status verified."}
+{"event":"details","time":1522217852,"u":"40","run":"0.51","mem":"40.28","data":"Finished dumping database table `wp_usermeta`."}
+{"event":"finishTableDump","time":1522217852,"u":"40","run":"0.51","mem":"40.28","data":"wp_usermeta"}
+{"event":"details","time":1522217852,"u":"40","run":"0.51","mem":"40.28","data":"Database SQL dump file (wp_usermeta.sql) size: 4 KB"}
+{"event":"sqlSize","time":1522217852,"u":"40","run":"0.51","mem":"40.28","data":"4273"}
+{"event":"details","time":1522217852,"u":"40","run":"0.51","mem":"40.28","data":"About to flush..."}
+{"event":"details","time":1522217852,"u":"40","run":"0.51","mem":"40.28","data":"Dumping database table `wp_users`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1522217852,"u":"40","run":"0.51","mem":"40.28","data":"wp_users"}
+{"event":"details","time":1522217852,"u":"40","run":"0.51","mem":"40.29","data":"SQL dump file `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_users.sql`."}
+{"event":"details","time":1522217852,"u":"40","run":"0.51","mem":"40.28","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1522217852,"u":"40","run":"0.51","mem":"40.29","data":"wp_users.sql"}
+{"event":"details","time":1522217852,"u":"40","run":"0.52","mem":"40.21","data":"Got `2` rows from `wp_users` of `1000` max."}
+{"event":"details","time":1522217852,"u":"40","run":"0.52","mem":"40.24","data":"Dumped `2` rows total from `wp_users`. No rows remain."}
+{"event":"details","time":1522217852,"u":"40","run":"0.52","mem":"40.24","data":"Pinging mysqli."}
+{"event":"details","time":1522217852,"u":"40","run":"0.52","mem":"40.24","data":"Database Server connection status verified."}
+{"event":"details","time":1522217852,"u":"40","run":"0.52","mem":"40.24","data":"Finished dumping database table `wp_users`."}
+{"event":"finishTableDump","time":1522217852,"u":"40","run":"0.52","mem":"40.24","data":"wp_users"}
+{"event":"details","time":1522217852,"u":"40","run":"0.52","mem":"40.24","data":"Database SQL dump file (wp_users.sql) size: 1 KB"}
+{"event":"sqlSize","time":1522217852,"u":"40","run":"0.52","mem":"40.24","data":"1379"}
+{"event":"details","time":1522217852,"u":"40","run":"0.52","mem":"40.24","data":"About to flush..."}
+{"event":"details","time":1522217852,"u":"40","run":"0.52","mem":"40.24","data":"Finished PHP based SQL dump method. Ran for 0.093 sec."}
+{"event":"details","time":1522217852,"u":"40","run":"0.52","mem":"40.22","data":"mysqlbuddy: Dump method `php` completed successfully."}
+{"event":"milestone","time":1522217852,"u":"40","run":"0.52","mem":"40.22","data":"finish_database"}
+{"event":"message","time":1522217852,"u":"40","run":"0.52","mem":"40.22","data":"Database dump procedure succeeded."}
+{"event":"details","time":1522217852,"u":"40","run":"0.52","mem":"40.23","data":"Fileoptions `7mqd26sjwt.txt` saved. 6048 bytes written."}
+{"event":"details","time":1522217852,"u":"40","run":"0.52","mem":"40.23","data":"Finished function `backup_create_database_dump`. Peak memory usage: 43.901 MB with BackupBuddy v7.3.0.1"}
+{"event":"finishFunction","time":1522217852,"u":"40","run":"0.52","mem":"40.23","data":"{\"function\":\"backup_create_database_dump\"}"}
+{"event":"details","time":1522217852,"u":"40","run":"0.52","mem":"40.23","data":"-----"}
+{"event":"details","time":1522217852,"u":"41","run":"0.52","mem":"40.23","data":"Closing & unlocking fileoptions."}
+{"event":"warnings","time":1522217852,"u":"41","run":"0.52","mem":"40.22","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1522217852,"u":"41","run":"0.52","mem":"40.22","data":"Scheduling Cron for `7mqd26sjwt`."}
+{"event":"details","time":1522217852,"u":"41","run":"0.52","mem":"40.22","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1522217852,"u":"41","run":"0.52","mem":"40.22","data":"Pinging mysqli."}
+{"event":"details","time":1522217852,"u":"41","run":"0.52","mem":"40.22","data":"Database Server connection status verified."}
+{"event":"details","time":1522217852,"u":"41","run":"0.52","mem":"40.23","data":"Scheduling next step to run at `1522217852` (localized time: Mar 28, 2018 6:17:32 am), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `7mqd26sjwt`."}
+{"event":"details","time":1522217852,"u":"41","run":"0.52","mem":"40.20","data":"Next step scheduled."}
+{"event":"startAction","time":1522217852,"u":"41","run":"0.52","mem":"40.20","data":"cronPass"}
+{"event":"cronParams","time":1522217852,"u":"41","run":"0.52","mem":"40.20","data":"eyJ0aW1lIjoxNTIyMjE3ODUyLCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjdtcWQyNnNqd3QiXX0="}
+{"event":"details","time":1522217852,"u":"41","run":"0.53","mem":"40.20","data":"Not calling spawn_cron()."}
+{"event":"details","time":1522217852,"u":"41","run":"0.53","mem":"40.20","data":"About to run next step (backup_create_database_dump expected). If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1522217852,"u":"41","run":"0.53","mem":"40.20","data":"Completed step function `backup_create_database_dump`."}
+{"event":"details","time":1522217852,"u":"73","run":"1.56","mem":"42.78","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"message","time":1522217852,"u":"73","run":"1.56","mem":"42.89","data":"Pong! Server replied."}
+{"event":"details","time":1522217856,"u":"65","run":"0.35","mem":"38.08","data":"--- New PHP process."}
+{"event":"details","time":1522217856,"u":"65","run":"0.35","mem":"38.08","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1522217856,"u":"65","run":"0.35","mem":"38.08","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1522217856,"u":"65","run":"0.35","mem":"38.08","data":"Reported PHP execution time - Configured: 30; Original: 30; Current: 30"}
+{"event":"details","time":1522217856,"u":"65","run":"0.35","mem":"38.08","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1522217856,"u":"65","run":"0.35","mem":"38.08","data":"Reported PHP memory limits - Configured: 256M; Original: 256M; Current: 256M"}
+{"event":"message","time":1522217856,"u":"65","run":"0.35","mem":"38.08","data":"Running process for serial `7mqd26sjwt`..."}
+{"event":"details","time":1522217856,"u":"68","run":"0.39","mem":"39.77","data":"About to load fileoptions data for serial `7mqd26sjwt`."}
+{"event":"details","time":1522217856,"u":"69","run":"0.39","mem":"39.87","data":"Fileoptions instance #39."}
+{"event":"details","time":1522217856,"u":"69","run":"0.39","mem":"39.88","data":"Created fileoptions lock file `7mqd26sjwt.txt.lock` with ID: 5abb3380a8e8c5.03609782."}
+{"event":"details","time":1522217856,"u":"69","run":"0.39","mem":"39.91","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217856,"u":"69","run":"0.39","mem":"39.91","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1522217856,"u":"69","run":"0.39","mem":"39.91","data":"cronPass"}
+{"event":"details","time":1522217856,"u":"69","run":"0.39","mem":"39.92","data":"Fileoptions `7mqd26sjwt.txt` saved. 6092 bytes written."}
+{"event":"details","time":1522217856,"u":"69","run":"0.39","mem":"39.91","data":"Found next step to run: `backup_create_database_dump`."}
+{"event":"details","time":1522217856,"u":"69","run":"0.39","mem":"39.91","data":"Peak memory usage: 39.974 MB"}
+{"event":"details","time":1522217856,"u":"69","run":"0.39","mem":"39.91","data":"-----"}
+{"event":"details","time":1522217856,"u":"69","run":"0.39","mem":"39.91","data":"Starting step function `backup_create_database_dump`. Attempt #1."}
+{"event":"startFunction","time":1522217856,"u":"69","run":"0.39","mem":"39.91","data":"{\"function\":\"backup_create_database_dump\",\"title\":\"Backing up database\"}"}
+{"event":"milestone","time":1522217856,"u":"69","run":"0.39","mem":"39.91","data":"start_database"}
+{"event":"message","time":1522217856,"u":"69","run":"0.39","mem":"39.91","data":"Starting database backup process."}
+{"event":"details","time":1522217856,"u":"70","run":"0.40","mem":"40.16","data":"PHP-based mysqldump (if applicable) max rows per select set to 1000."}
+{"event":"details","time":1522217856,"u":"70","run":"0.40","mem":"40.17","data":"Database host for dumping: `localhost`"}
+{"event":"details","time":1522217856,"u":"70","run":"0.40","mem":"40.17","data":"Loading mysqlbuddy library."}
+{"event":"details","time":1522217856,"u":"70","run":"0.40","mem":"40.17","data":"Mysql server default directories: `\/usr\/bin\/,\/usr\/bin\/mysql\/,\/usr\/local\/bin\/`"}
+{"event":"details","time":1522217856,"u":"70","run":"0.40","mem":"40.17","data":"mysqlbuddy: Force method of `1` passed."}
+{"event":"message","time":1522217856,"u":"70","run":"0.40","mem":"40.17","data":"mysqlbuddy: Settings overriding automatic detection of available database dump methods. Using forced override methods: `php`."}
+{"event":"message","time":1522217856,"u":"70","run":"0.40","mem":"40.17","data":"mysqlbuddy: Detected database dump methods: `php`."}
+{"event":"details","time":1522217856,"u":"70","run":"0.40","mem":"40.17","data":"If applicable, breaking up with max execution time `30` seconds."}
+{"event":"details","time":1522217856,"u":"70","run":"0.40","mem":"40.17","data":"This server's mysql version: `5.5.51`."}
+{"event":"milestone","time":1522217856,"u":"70","run":"0.40","mem":"40.17","data":"start_database"}
+{"event":"message","time":1522217856,"u":"70","run":"0.40","mem":"40.17","data":"Starting database dump procedure."}
+{"event":"details","time":1522217856,"u":"70","run":"0.40","mem":"40.17","data":"mysqlbuddy: Output directory: `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/`."}
+{"event":"details","time":1522217856,"u":"70","run":"0.40","mem":"40.17","data":"Dumping single table `wp_posts`."}
+{"event":"details","time":1522217856,"u":"70","run":"0.40","mem":"40.17","data":"Preparing to dump using available method(s) by priority. Methods: `php`"}
+{"event":"details","time":1522217856,"u":"70","run":"0.40","mem":"40.17","data":"mysqlbuddy: Attempting dump method `php`."}
+{"event":"details","time":1522217856,"u":"70","run":"0.40","mem":"40.17","data":"Loading DB kicker for use leter in case database goes away."}
+{"event":"details","time":1522217856,"u":"70","run":"0.40","mem":"40.20","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1522217856,"u":"70","run":"0.40","mem":"40.20","data":"Dumping database table `wp_posts`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1522217856,"u":"70","run":"0.40","mem":"40.20","data":"wp_posts"}
+{"event":"details","time":1522217856,"u":"70","run":"0.40","mem":"40.20","data":"SQL dump file `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_posts.sql`."}
+{"event":"details","time":1522217856,"u":"70","run":"0.40","mem":"40.20","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1522217856,"u":"70","run":"0.40","mem":"40.20","data":"wp_posts.sql"}
+{"event":"details","time":1522217856,"u":"83","run":"0.53","mem":"50.30","data":"Got `692` rows from `wp_posts` of `1000` max."}
+{"event":"details","time":1522217856,"u":"94","run":"0.64","mem":"50.36","data":"Working... Dumped `500` rows from `wp_posts` so far."}
+{"event":"details","time":1522217856,"u":"00","run":"0.70","mem":"50.36","data":"Dumped `692` rows total from `wp_posts`. No rows remain."}
+{"event":"details","time":1522217856,"u":"00","run":"0.70","mem":"50.36","data":"Pinging mysqli."}
+{"event":"details","time":1522217857,"u":"00","run":"0.70","mem":"50.36","data":"Database Server connection status verified."}
+{"event":"details","time":1522217857,"u":"00","run":"0.71","mem":"50.36","data":"Finished dumping database table `wp_posts`."}
+{"event":"finishTableDump","time":1522217857,"u":"00","run":"0.71","mem":"50.36","data":"wp_posts"}
+{"event":"details","time":1522217857,"u":"00","run":"0.71","mem":"50.36","data":"Database SQL dump file (wp_posts.sql) size: 5.88 MB"}
+{"event":"sqlSize","time":1522217857,"u":"00","run":"0.71","mem":"50.36","data":"6160926"}
+{"event":"details","time":1522217857,"u":"00","run":"0.71","mem":"50.36","data":"About to flush..."}
+{"event":"details","time":1522217857,"u":"01","run":"0.71","mem":"50.36","data":"Finished PHP based SQL dump method. Ran for 0.304 sec."}
+{"event":"details","time":1522217857,"u":"01","run":"0.71","mem":"48.68","data":"mysqlbuddy: Dump method `php` completed successfully."}
+{"event":"milestone","time":1522217857,"u":"01","run":"0.71","mem":"48.68","data":"finish_database"}
+{"event":"message","time":1522217857,"u":"01","run":"0.71","mem":"48.68","data":"Database dump procedure succeeded."}
+{"event":"details","time":1522217857,"u":"01","run":"0.71","mem":"48.69","data":"Fileoptions `7mqd26sjwt.txt` saved. 6132 bytes written."}
+{"event":"details","time":1522217857,"u":"01","run":"0.71","mem":"48.68","data":"Finished function `backup_create_database_dump`. Peak memory usage: 50.597 MB with BackupBuddy v7.3.0.1"}
+{"event":"finishFunction","time":1522217857,"u":"01","run":"0.71","mem":"48.68","data":"{\"function\":\"backup_create_database_dump\"}"}
+{"event":"details","time":1522217857,"u":"01","run":"0.71","mem":"48.68","data":"-----"}
+{"event":"details","time":1522217857,"u":"01","run":"0.71","mem":"48.68","data":"Closing & unlocking fileoptions."}
+{"event":"warnings","time":1522217857,"u":"01","run":"0.71","mem":"48.68","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1522217857,"u":"01","run":"0.71","mem":"48.68","data":"Scheduling Cron for `7mqd26sjwt`."}
+{"event":"details","time":1522217857,"u":"01","run":"0.71","mem":"48.68","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1522217857,"u":"01","run":"0.71","mem":"48.68","data":"Pinging mysqli."}
+{"event":"details","time":1522217857,"u":"01","run":"0.71","mem":"48.68","data":"Database Server connection status verified."}
+{"event":"details","time":1522217857,"u":"01","run":"0.71","mem":"48.68","data":"Scheduling next step to run at `1522217857` (localized time: Mar 28, 2018 6:17:37 am), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `7mqd26sjwt`."}
+{"event":"details","time":1522217857,"u":"02","run":"0.72","mem":"40.20","data":"Next step scheduled."}
+{"event":"startAction","time":1522217857,"u":"02","run":"0.72","mem":"40.20","data":"cronPass"}
+{"event":"cronParams","time":1522217857,"u":"02","run":"0.72","mem":"40.20","data":"eyJ0aW1lIjoxNTIyMjE3ODU3LCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjdtcWQyNnNqd3QiXX0="}
+{"event":"details","time":1522217857,"u":"02","run":"0.72","mem":"40.20","data":"Not calling spawn_cron()."}
+{"event":"details","time":1522217857,"u":"02","run":"0.72","mem":"40.20","data":"About to run next step (backup_create_database_dump expected). If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1522217857,"u":"02","run":"0.72","mem":"40.20","data":"Completed step function `backup_create_database_dump`."}
+{"event":"details","time":1522217857,"u":"11","run":"1.47","mem":"42.78","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"message","time":1522217857,"u":"11","run":"1.47","mem":"42.80","data":"Pong! Server replied."}
+{"event":"details","time":1522217862,"u":"04","run":"0.41","mem":"38.08","data":"--- New PHP process."}
+{"event":"details","time":1522217862,"u":"04","run":"0.41","mem":"38.08","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1522217862,"u":"04","run":"0.41","mem":"38.08","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1522217862,"u":"04","run":"0.41","mem":"38.08","data":"Reported PHP execution time - Configured: 30; Original: 30; Current: 30"}
+{"event":"details","time":1522217862,"u":"04","run":"0.41","mem":"38.08","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1522217862,"u":"04","run":"0.41","mem":"38.08","data":"Reported PHP memory limits - Configured: 256M; Original: 256M; Current: 256M"}
+{"event":"message","time":1522217862,"u":"04","run":"0.41","mem":"38.08","data":"Running process for serial `7mqd26sjwt`..."}
+{"event":"details","time":1522217862,"u":"06","run":"0.43","mem":"39.77","data":"About to load fileoptions data for serial `7mqd26sjwt`."}
+{"event":"details","time":1522217862,"u":"07","run":"0.43","mem":"39.87","data":"Fileoptions instance #39."}
+{"event":"details","time":1522217862,"u":"07","run":"0.43","mem":"39.88","data":"Created fileoptions lock file `7mqd26sjwt.txt.lock` with ID: 5abb33861144a3.86239901."}
+{"event":"details","time":1522217862,"u":"07","run":"0.43","mem":"39.91","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217862,"u":"07","run":"0.43","mem":"39.91","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1522217862,"u":"07","run":"0.43","mem":"39.91","data":"cronPass"}
+{"event":"details","time":1522217862,"u":"07","run":"0.43","mem":"39.92","data":"Fileoptions `7mqd26sjwt.txt` saved. 6172 bytes written."}
+{"event":"details","time":1522217862,"u":"07","run":"0.43","mem":"39.91","data":"Found next step to run: `backup_create_database_dump`."}
+{"event":"details","time":1522217862,"u":"07","run":"0.44","mem":"39.91","data":"Peak memory usage: 39.975 MB"}
+{"event":"details","time":1522217862,"u":"07","run":"0.44","mem":"39.91","data":"-----"}
+{"event":"details","time":1522217862,"u":"07","run":"0.44","mem":"39.91","data":"Starting step function `backup_create_database_dump`. Attempt #1."}
+{"event":"startFunction","time":1522217862,"u":"07","run":"0.44","mem":"39.91","data":"{\"function\":\"backup_create_database_dump\",\"title\":\"Backing up database\"}"}
+{"event":"milestone","time":1522217862,"u":"07","run":"0.44","mem":"39.91","data":"start_database"}
+{"event":"message","time":1522217862,"u":"07","run":"0.44","mem":"39.91","data":"Starting database backup process."}
+{"event":"details","time":1522217862,"u":"08","run":"0.44","mem":"40.16","data":"PHP-based mysqldump (if applicable) max rows per select set to 1000."}
+{"event":"details","time":1522217862,"u":"08","run":"0.44","mem":"40.17","data":"Database host for dumping: `localhost`"}
+{"event":"details","time":1522217862,"u":"08","run":"0.44","mem":"40.17","data":"Loading mysqlbuddy library."}
+{"event":"details","time":1522217862,"u":"08","run":"0.44","mem":"40.17","data":"Mysql server default directories: `\/usr\/bin\/,\/usr\/bin\/mysql\/,\/usr\/local\/bin\/`"}
+{"event":"details","time":1522217862,"u":"08","run":"0.44","mem":"40.17","data":"mysqlbuddy: Force method of `1` passed."}
+{"event":"message","time":1522217862,"u":"08","run":"0.44","mem":"40.17","data":"mysqlbuddy: Settings overriding automatic detection of available database dump methods. Using forced override methods: `php`."}
+{"event":"message","time":1522217862,"u":"08","run":"0.44","mem":"40.17","data":"mysqlbuddy: Detected database dump methods: `php`."}
+{"event":"details","time":1522217862,"u":"08","run":"0.44","mem":"40.17","data":"If applicable, breaking up with max execution time `30` seconds."}
+{"event":"details","time":1522217862,"u":"08","run":"0.44","mem":"40.17","data":"This server's mysql version: `5.5.51`."}
+{"event":"milestone","time":1522217862,"u":"08","run":"0.44","mem":"40.17","data":"start_database"}
+{"event":"message","time":1522217862,"u":"08","run":"0.44","mem":"40.17","data":"Starting database dump procedure."}
+{"event":"details","time":1522217862,"u":"08","run":"0.44","mem":"40.17","data":"mysqlbuddy: Output directory: `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/`."}
+{"event":"details","time":1522217862,"u":"08","run":"0.44","mem":"40.17","data":"Dumping single table `wp_postmeta`."}
+{"event":"details","time":1522217862,"u":"08","run":"0.44","mem":"40.17","data":"Preparing to dump using available method(s) by priority. Methods: `php`"}
+{"event":"details","time":1522217862,"u":"08","run":"0.44","mem":"40.17","data":"mysqlbuddy: Attempting dump method `php`."}
+{"event":"details","time":1522217862,"u":"08","run":"0.44","mem":"40.17","data":"Loading DB kicker for use leter in case database goes away."}
+{"event":"details","time":1522217862,"u":"08","run":"0.44","mem":"40.20","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1522217862,"u":"08","run":"0.44","mem":"40.20","data":"Dumping database table `wp_postmeta`. Max rows per select: 1000. Starting at row `0`."}
+{"event":"startTableDump","time":1522217862,"u":"08","run":"0.44","mem":"40.20","data":"wp_postmeta"}
+{"event":"details","time":1522217862,"u":"08","run":"0.44","mem":"40.20","data":"SQL dump file `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_postmeta.sql`."}
+{"event":"details","time":1522217862,"u":"08","run":"0.44","mem":"40.20","data":"mysqlbuddy: PHP-based database dump with max execution time for this run: 30 seconds."}
+{"event":"sqlFile","time":1522217862,"u":"08","run":"0.44","mem":"40.20","data":"wp_postmeta.sql"}
+{"event":"details","time":1522217862,"u":"09","run":"0.45","mem":"41.25","data":"Got `555` rows from `wp_postmeta` of `1000` max."}
+{"event":"details","time":1522217862,"u":"10","run":"0.47","mem":"41.26","data":"Working... Dumped `500` rows from `wp_postmeta` so far."}
+{"event":"details","time":1522217862,"u":"10","run":"0.47","mem":"41.26","data":"Dumped `555` rows total from `wp_postmeta`. No rows remain."}
+{"event":"details","time":1522217862,"u":"10","run":"0.47","mem":"41.26","data":"Pinging mysqli."}
+{"event":"details","time":1522217862,"u":"10","run":"0.47","mem":"41.26","data":"Database Server connection status verified."}
+{"event":"details","time":1522217862,"u":"10","run":"0.47","mem":"41.26","data":"Finished dumping database table `wp_postmeta`."}
+{"event":"finishTableDump","time":1522217862,"u":"10","run":"0.47","mem":"41.26","data":"wp_postmeta"}
+{"event":"details","time":1522217862,"u":"10","run":"0.47","mem":"41.26","data":"Database SQL dump file (wp_postmeta.sql) size: 171 KB"}
+{"event":"sqlSize","time":1522217862,"u":"10","run":"0.47","mem":"41.26","data":"175470"}
+{"event":"details","time":1522217862,"u":"11","run":"0.47","mem":"41.26","data":"About to flush..."}
+{"event":"details","time":1522217862,"u":"11","run":"0.47","mem":"41.26","data":"Finished PHP based SQL dump method. Ran for 0.027 sec."}
+{"event":"details","time":1522217862,"u":"11","run":"0.47","mem":"40.90","data":"mysqlbuddy: Dump method `php` completed successfully."}
+{"event":"milestone","time":1522217862,"u":"11","run":"0.47","mem":"40.90","data":"finish_database"}
+{"event":"message","time":1522217862,"u":"11","run":"0.47","mem":"40.90","data":"Database dump procedure succeeded."}
+{"event":"details","time":1522217862,"u":"11","run":"0.47","mem":"40.91","data":"Fileoptions `7mqd26sjwt.txt` saved. 6216 bytes written."}
+{"event":"details","time":1522217862,"u":"11","run":"0.47","mem":"40.90","data":"Finished function `backup_create_database_dump`. Peak memory usage: 41.337 MB with BackupBuddy v7.3.0.1"}
+{"event":"finishFunction","time":1522217862,"u":"11","run":"0.47","mem":"40.90","data":"{\"function\":\"backup_create_database_dump\"}"}
+{"event":"details","time":1522217862,"u":"11","run":"0.47","mem":"40.90","data":"-----"}
+{"event":"details","time":1522217862,"u":"11","run":"0.47","mem":"40.90","data":"Closing & unlocking fileoptions."}
+{"event":"warnings","time":1522217862,"u":"11","run":"0.47","mem":"40.90","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1522217862,"u":"11","run":"0.47","mem":"40.90","data":"Scheduling Cron for `7mqd26sjwt`."}
+{"event":"details","time":1522217862,"u":"11","run":"0.47","mem":"40.90","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1522217862,"u":"11","run":"0.47","mem":"40.90","data":"Pinging mysqli."}
+{"event":"details","time":1522217862,"u":"11","run":"0.47","mem":"40.90","data":"Database Server connection status verified."}
+{"event":"details","time":1522217862,"u":"11","run":"0.47","mem":"40.90","data":"Scheduling next step to run at `1522217862` (localized time: Mar 28, 2018 6:17:42 am), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `7mqd26sjwt`."}
+{"event":"details","time":1522217862,"u":"11","run":"0.48","mem":"40.20","data":"Next step scheduled."}
+{"event":"startAction","time":1522217862,"u":"11","run":"0.48","mem":"40.20","data":"cronPass"}
+{"event":"cronParams","time":1522217862,"u":"11","run":"0.48","mem":"40.20","data":"eyJ0aW1lIjoxNTIyMjE3ODYyLCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjdtcWQyNnNqd3QiXX0="}
+{"event":"details","time":1522217862,"u":"11","run":"0.48","mem":"40.20","data":"Not calling spawn_cron()."}
+{"event":"details","time":1522217862,"u":"11","run":"0.48","mem":"40.20","data":"About to run next step (backup_zip_files expected). If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1522217862,"u":"11","run":"0.48","mem":"40.20","data":"Completed step function `backup_create_database_dump`."}
+{"event":"details","time":1522217862,"u":"34","run":"1.39","mem":"42.78","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"message","time":1522217862,"u":"34","run":"1.39","mem":"42.80","data":"Pong! Server replied."}
+{"event":"details","time":1522217866,"u":"86","run":"0.40","mem":"38.08","data":"--- New PHP process."}
+{"event":"details","time":1522217866,"u":"86","run":"0.40","mem":"38.08","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1522217866,"u":"86","run":"0.40","mem":"38.08","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1522217866,"u":"86","run":"0.40","mem":"38.08","data":"Reported PHP execution time - Configured: 30; Original: 30; Current: 30"}
+{"event":"details","time":1522217866,"u":"86","run":"0.40","mem":"38.08","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1522217866,"u":"86","run":"0.40","mem":"38.08","data":"Reported PHP memory limits - Configured: 256M; Original: 256M; Current: 256M"}
+{"event":"message","time":1522217866,"u":"86","run":"0.40","mem":"38.08","data":"Running process for serial `7mqd26sjwt`..."}
+{"event":"details","time":1522217866,"u":"88","run":"0.43","mem":"39.77","data":"About to load fileoptions data for serial `7mqd26sjwt`."}
+{"event":"details","time":1522217866,"u":"89","run":"0.43","mem":"39.87","data":"Fileoptions instance #39."}
+{"event":"details","time":1522217866,"u":"89","run":"0.43","mem":"39.88","data":"Created fileoptions lock file `7mqd26sjwt.txt.lock` with ID: 5abb338ad95767.11345008."}
+{"event":"details","time":1522217866,"u":"89","run":"0.43","mem":"39.91","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217866,"u":"89","run":"0.43","mem":"39.91","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1522217866,"u":"89","run":"0.43","mem":"39.91","data":"cronPass"}
+{"event":"details","time":1522217866,"u":"89","run":"0.43","mem":"39.92","data":"Fileoptions `7mqd26sjwt.txt` saved. 6256 bytes written."}
+{"event":"details","time":1522217866,"u":"89","run":"0.43","mem":"39.91","data":"Found next step to run: `backup_zip_files`."}
+{"event":"details","time":1522217866,"u":"89","run":"0.43","mem":"39.91","data":"Peak memory usage: 39.975 MB"}
+{"event":"details","time":1522217866,"u":"89","run":"0.43","mem":"39.91","data":"-----"}
+{"event":"details","time":1522217866,"u":"89","run":"0.43","mem":"39.91","data":"Starting step function `backup_zip_files`. Attempt #1."}
+{"event":"startFunction","time":1522217866,"u":"89","run":"0.43","mem":"39.91","data":"{\"function\":\"backup_zip_files\",\"title\":\"Zipping up files\"}"}
+{"event":"milestone","time":1522217866,"u":"89","run":"0.43","mem":"39.91","data":"start_files"}
+{"event":"details","time":1522217866,"u":"89","run":"0.43","mem":"39.91","data":"Backup root: `\/home3\/mauibeats\/cryptobandwagon.org\/`."}
+{"event":"message","time":1522217866,"u":"89","run":"0.44","mem":"39.92","data":"Running standard ZIP system based on settings."}
+{"event":"details","time":1522217866,"u":"89","run":"0.44","mem":"39.92","data":"Running under 64-bit PHP"}
+{"event":"details","time":1522217866,"u":"89","run":"0.44","mem":"39.92","data":"Server API: cgi-fcgi"}
+{"event":"details","time":1522217866,"u":"89","run":"0.44","mem":"39.92","data":"Using Best Available zip method based on settings."}
+{"event":"details","time":1522217866,"u":"89","run":"0.44","mem":"39.92","data":"Creating ZIP file `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_backups\/backup-cryptobandwagon_org-2018_03_28-06_17am-full-7mqd26sjwt.zip`. Adding directory `\/home3\/mauibeats\/cryptobandwagon.org\/`. Excludes: \/.sucuriquarantine\/,\/wp-content\/uploads\/sucuri\/,\/wp-content\/envato-backups\/,\/wp-content\/uploads\/backwpup,\/wp-content\/backup-db\/,\/wp-snapshots\/,\/wp-content\/ai1wm-backups\/,\/wp-content\/plugins\/wordfence\/tmp\/,\/wp-content\/cache\/supercache\/,\/error_log,\/wp-content\/uploads\/backupbuddy_backups\/,\/wp-content\/uploads\/pb_backupbuddy\/,\/importbuddy\/,\/importbuddy.php"}
+{"event":"details","time":1522217866,"u":"91","run":"0.46","mem":"39.98","data":"Trying exec method for ZIP."}
+{"event":"details","time":1522217866,"u":"91","run":"0.46","mem":"39.99","data":"Using zip version: 3.0"}
+{"event":"details","time":1522217866,"u":"91","run":"0.46","mem":"39.99","data":"Zip archive creation compression enabled based on settings."}
+{"event":"details","time":1522217866,"u":"91","run":"0.46","mem":"39.99","data":"Zip archive creation symbolic links will not be followed based on settings."}
+{"event":"details","time":1522217866,"u":"91","run":"0.46","mem":"39.99","data":"Zip archive creation actionable warnings will not be ignored based on settings."}
+{"event":"details","time":1522217866,"u":"91","run":"0.46","mem":"39.99","data":"Creating backup exclusions file `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_backups\/temp_zip_7mqd26sjwt\/exclusions.txt`."}
+{"event":"details","time":1522217866,"u":"91","run":"0.46","mem":"39.99","data":"Omitting exclusion as file\/directory does not currently exist: `\/.sucuriquarantine\/`."}
+{"event":"details","time":1522217866,"u":"91","run":"0.46","mem":"39.99","data":"Omitting exclusion as file\/directory does not currently exist: `\/wp-content\/uploads\/sucuri\/`."}
+{"event":"details","time":1522217866,"u":"91","run":"0.46","mem":"39.99","data":"Omitting exclusion as file\/directory does not currently exist: `\/wp-content\/envato-backups\/`."}
+{"event":"details","time":1522217866,"u":"91","run":"0.46","mem":"39.99","data":"Omitting exclusion as file\/directory does not currently exist: `\/wp-content\/uploads\/backwpup`."}
+{"event":"details","time":1522217866,"u":"92","run":"0.46","mem":"39.99","data":"Omitting exclusion as file\/directory does not currently exist: `\/wp-content\/backup-db\/`."}
+{"event":"details","time":1522217866,"u":"92","run":"0.46","mem":"39.99","data":"Omitting exclusion as file\/directory does not currently exist: `\/wp-snapshots\/`."}
+{"event":"details","time":1522217866,"u":"92","run":"0.46","mem":"39.99","data":"Omitting exclusion as file\/directory does not currently exist: `\/wp-content\/ai1wm-backups\/`."}
+{"event":"details","time":1522217866,"u":"92","run":"0.46","mem":"39.99","data":"Omitting exclusion as file\/directory does not currently exist: `\/wp-content\/plugins\/wordfence\/tmp\/`."}
+{"event":"details","time":1522217866,"u":"92","run":"0.46","mem":"39.99","data":"Omitting exclusion as file\/directory does not currently exist: `\/wp-content\/cache\/supercache\/`."}
+{"event":"details","time":1522217866,"u":"92","run":"0.46","mem":"39.99","data":"Omitting exclusion as file\/directory does not currently exist: `\/error_log`."}
+{"event":"details","time":1522217866,"u":"92","run":"0.46","mem":"39.99","data":"Excluding directory `\/wp-content\/uploads\/backupbuddy_backups\/`."}
+{"event":"details","time":1522217866,"u":"92","run":"0.46","mem":"39.99","data":"Excluding directory `\/wp-content\/uploads\/pb_backupbuddy\/`."}
+{"event":"details","time":1522217866,"u":"92","run":"0.46","mem":"39.99","data":"Omitting exclusion as file\/directory does not currently exist: `\/importbuddy\/`."}
+{"event":"details","time":1522217866,"u":"92","run":"0.46","mem":"39.99","data":"Excluding file `\/importbuddy.php`."}
+{"event":"details","time":1522217866,"u":"92","run":"0.46","mem":"39.99","data":"Backup exclusions file created."}
+{"event":"details","time":1522217866,"u":"92","run":"0.46","mem":"39.99","data":"Using exclusion file `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_backups\/temp_zip_7mqd26sjwt\/exclusions.txt`"}
+{"event":"details","time":1522217866,"u":"92","run":"0.46","mem":"39.99","data":"exec command: zip -r -q -y -lf '\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_backups\/temp_zip_7mqd26sjwt\/temp_zip_exec_log.txt' -li -b '\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_backups\/temp_zip_7mqd26sjwt\/' '\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_backups\/temp_zip_7mqd26sjwt\/backup-cryptobandwagon_org-2018_03_28-06_17am-full-7mqd26sjwt.zip' . -x@'\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_backups\/temp_zip_7mqd26sjwt\/exclusions.txt'"}
+{"event":"details","time":1522217867,"u":"26","run":"1.57","mem":"42.78","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"message","time":1522217867,"u":"26","run":"1.58","mem":"42.79","data":"Pong! Server replied."}
+{"event":"details","time":1522217871,"u":"42","run":"0.47","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217871,"u":"42","run":"0.47","mem":"42.47","data":"Temporary ZIP file size: 1.39 MB. Approximate creation speed: 348 KB\/sec"}
+{"event":"archiveSize","time":1522217871,"u":"42","run":"0.47","mem":"42.47","data":"1.39 MB"}
+{"event":"message","time":1522217871,"u":"42","run":"0.47","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217875,"u":"10","run":"0.46","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217875,"u":"10","run":"0.46","mem":"42.47","data":"Temporary ZIP file size: 19.79 MB. Approximate creation speed: 2.44 MB\/sec"}
+{"event":"archiveSize","time":1522217875,"u":"10","run":"0.46","mem":"42.47","data":"19.79 MB"}
+{"event":"message","time":1522217875,"u":"10","run":"0.46","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217879,"u":"60","run":"0.57","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217879,"u":"60","run":"0.57","mem":"42.47","data":"Temporary ZIP file size: 36.95 MB. Approximate creation speed: 3.05 MB\/sec"}
+{"event":"archiveSize","time":1522217879,"u":"60","run":"0.57","mem":"42.47","data":"36.95 MB"}
+{"event":"message","time":1522217879,"u":"60","run":"0.57","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217883,"u":"18","run":"0.47","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217883,"u":"18","run":"0.47","mem":"42.47","data":"Temporary ZIP file size: 52.76 MB. Approximate creation speed: 3.28 MB\/sec"}
+{"event":"archiveSize","time":1522217883,"u":"18","run":"0.47","mem":"42.47","data":"52.76 MB"}
+{"event":"message","time":1522217883,"u":"18","run":"0.47","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217887,"u":"58","run":"0.93","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217887,"u":"58","run":"0.93","mem":"42.47","data":"Temporary ZIP file size: 68.75 MB. Approximate creation speed: 3.42 MB\/sec"}
+{"event":"archiveSize","time":1522217887,"u":"58","run":"0.93","mem":"42.47","data":"68.75 MB"}
+{"event":"message","time":1522217887,"u":"58","run":"0.93","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217891,"u":"17","run":"0.50","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217891,"u":"17","run":"0.50","mem":"42.47","data":"Temporary ZIP file size: 78.18 MB. Approximate creation speed: 3.24 MB\/sec"}
+{"event":"archiveSize","time":1522217891,"u":"17","run":"0.50","mem":"42.47","data":"78.18 MB"}
+{"event":"message","time":1522217891,"u":"17","run":"0.50","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217895,"u":"19","run":"0.50","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217895,"u":"19","run":"0.50","mem":"42.47","data":"Temporary ZIP file size: 87.65 MB. Approximate creation speed: 3.12 MB\/sec"}
+{"event":"archiveSize","time":1522217895,"u":"19","run":"0.50","mem":"42.47","data":"87.65 MB"}
+{"event":"message","time":1522217895,"u":"19","run":"0.50","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217899,"u":"46","run":"0.48","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217899,"u":"46","run":"0.48","mem":"42.47","data":"Temporary ZIP file size: 101.19 MB. Approximate creation speed: 3.15 MB\/sec"}
+{"event":"archiveSize","time":1522217899,"u":"46","run":"0.48","mem":"42.47","data":"101.19 MB"}
+{"event":"message","time":1522217899,"u":"46","run":"0.48","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217903,"u":"09","run":"0.49","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217903,"u":"09","run":"0.49","mem":"42.47","data":"Temporary ZIP file size: 111.35 MB. Approximate creation speed: 3.08 MB\/sec"}
+{"event":"archiveSize","time":1522217903,"u":"09","run":"0.49","mem":"42.47","data":"111.35 MB"}
+{"event":"message","time":1522217903,"u":"09","run":"0.49","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217907,"u":"13","run":"0.50","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217907,"u":"13","run":"0.50","mem":"42.47","data":"Temporary ZIP file size: 120.39 MB. Approximate creation speed: 3 MB\/sec"}
+{"event":"archiveSize","time":1522217907,"u":"13","run":"0.50","mem":"42.47","data":"120.39 MB"}
+{"event":"message","time":1522217907,"u":"13","run":"0.50","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217911,"u":"43","run":"0.44","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217911,"u":"44","run":"0.45","mem":"42.47","data":"Temporary ZIP file size: 138.29 MB. Approximate creation speed: 3.14 MB\/sec"}
+{"event":"archiveSize","time":1522217911,"u":"44","run":"0.45","mem":"42.47","data":"138.29 MB"}
+{"event":"message","time":1522217911,"u":"44","run":"0.45","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217915,"u":"15","run":"0.57","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217915,"u":"15","run":"0.57","mem":"42.47","data":"Temporary ZIP file size: 156.56 MB. Approximate creation speed: 3.25 MB\/sec"}
+{"event":"archiveSize","time":1522217915,"u":"15","run":"0.57","mem":"42.47","data":"156.56 MB"}
+{"event":"message","time":1522217915,"u":"15","run":"0.57","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217919,"u":"59","run":"0.61","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217919,"u":"59","run":"0.61","mem":"42.47","data":"Temporary ZIP file size: 177.44 MB. Approximate creation speed: 3.41 MB\/sec"}
+{"event":"archiveSize","time":1522217919,"u":"59","run":"0.61","mem":"42.47","data":"177.44 MB"}
+{"event":"message","time":1522217919,"u":"59","run":"0.61","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217923,"u":"24","run":"0.58","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217923,"u":"24","run":"0.58","mem":"42.47","data":"Temporary ZIP file size: 190.4 MB. Approximate creation speed: 3.39 MB\/sec"}
+{"event":"archiveSize","time":1522217923,"u":"24","run":"0.58","mem":"42.47","data":"190.4 MB"}
+{"event":"message","time":1522217923,"u":"24","run":"0.58","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217927,"u":"13","run":"0.48","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217927,"u":"13","run":"0.48","mem":"42.47","data":"Temporary ZIP file size: 199.61 MB. Approximate creation speed: 3.32 MB\/sec"}
+{"event":"archiveSize","time":1522217927,"u":"13","run":"0.48","mem":"42.47","data":"199.61 MB"}
+{"event":"message","time":1522217927,"u":"13","run":"0.48","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217931,"u":"53","run":"0.54","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217931,"u":"53","run":"0.54","mem":"42.47","data":"Temporary ZIP file size: 204.23 MB. Approximate creation speed: 3.19 MB\/sec"}
+{"event":"archiveSize","time":1522217931,"u":"53","run":"0.54","mem":"42.47","data":"204.23 MB"}
+{"event":"message","time":1522217931,"u":"53","run":"0.54","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217935,"u":"21","run":"0.53","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217935,"u":"21","run":"0.53","mem":"42.47","data":"Temporary ZIP file size: 209.73 MB. Approximate creation speed: 3.08 MB\/sec"}
+{"event":"archiveSize","time":1522217935,"u":"21","run":"0.53","mem":"42.47","data":"209.73 MB"}
+{"event":"message","time":1522217935,"u":"21","run":"0.53","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217939,"u":"54","run":"0.56","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217939,"u":"54","run":"0.56","mem":"42.47","data":"Temporary ZIP file size: 225.31 MB. Approximate creation speed: 3.12 MB\/sec"}
+{"event":"archiveSize","time":1522217939,"u":"54","run":"0.56","mem":"42.47","data":"225.31 MB"}
+{"event":"message","time":1522217939,"u":"54","run":"0.56","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217943,"u":"35","run":"0.43","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217943,"u":"35","run":"0.43","mem":"42.47","data":"Temporary ZIP file size: 248.97 MB. Approximate creation speed: 3.27 MB\/sec"}
+{"event":"archiveSize","time":1522217943,"u":"35","run":"0.43","mem":"42.47","data":"248.97 MB"}
+{"event":"message","time":1522217943,"u":"35","run":"0.43","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217947,"u":"12","run":"0.49","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217947,"u":"12","run":"0.49","mem":"42.47","data":"Temporary ZIP file size: 273.74 MB. Approximate creation speed: 3.42 MB\/sec"}
+{"event":"archiveSize","time":1522217947,"u":"12","run":"0.49","mem":"42.47","data":"273.74 MB"}
+{"event":"message","time":1522217947,"u":"12","run":"0.49","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217951,"u":"11","run":"0.48","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217951,"u":"11","run":"0.48","mem":"42.47","data":"Temporary ZIP file size: 300.58 MB. Approximate creation speed: 3.57 MB\/sec"}
+{"event":"archiveSize","time":1522217951,"u":"11","run":"0.48","mem":"42.47","data":"300.58 MB"}
+{"event":"message","time":1522217951,"u":"11","run":"0.48","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217956,"u":"05","run":"0.46","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217956,"u":"05","run":"0.46","mem":"42.47","data":"Temporary ZIP file size: 339.8 MB. Approximate creation speed: 3.81 MB\/sec"}
+{"event":"archiveSize","time":1522217956,"u":"05","run":"0.46","mem":"42.47","data":"339.8 MB"}
+{"event":"message","time":1522217956,"u":"05","run":"0.46","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217960,"u":"40","run":"0.44","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217960,"u":"40","run":"0.44","mem":"42.47","data":"Temporary ZIP file size: 370.98 MB. Approximate creation speed: 3.98 MB\/sec"}
+{"event":"archiveSize","time":1522217960,"u":"40","run":"0.44","mem":"42.47","data":"370.98 MB"}
+{"event":"message","time":1522217960,"u":"40","run":"0.44","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217964,"u":"09","run":"0.48","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217964,"u":"09","run":"0.48","mem":"42.47","data":"Temporary ZIP file size: 375.34 MB. Approximate creation speed: 3.87 MB\/sec"}
+{"event":"archiveSize","time":1522217964,"u":"09","run":"0.48","mem":"42.47","data":"375.34 MB"}
+{"event":"message","time":1522217964,"u":"09","run":"0.48","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217968,"u":"07","run":"0.48","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217968,"u":"07","run":"0.48","mem":"42.47","data":"Temporary ZIP file size: 376.02 MB. Approximate creation speed: 3.72 MB\/sec"}
+{"event":"archiveSize","time":1522217968,"u":"07","run":"0.48","mem":"42.47","data":"376.02 MB"}
+{"event":"message","time":1522217968,"u":"07","run":"0.48","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217972,"u":"11","run":"0.50","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217972,"u":"11","run":"0.50","mem":"42.47","data":"Temporary ZIP file size: 377.85 MB. Approximate creation speed: 3.59 MB\/sec"}
+{"event":"archiveSize","time":1522217972,"u":"11","run":"0.50","mem":"42.47","data":"377.85 MB"}
+{"event":"message","time":1522217972,"u":"11","run":"0.50","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217976,"u":"07","run":"0.46","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217976,"u":"07","run":"0.46","mem":"42.47","data":"Temporary ZIP file size: 386.23 MB. Approximate creation speed: 3.54 MB\/sec"}
+{"event":"archiveSize","time":1522217976,"u":"07","run":"0.46","mem":"42.47","data":"386.23 MB"}
+{"event":"message","time":1522217976,"u":"07","run":"0.46","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217980,"u":"42","run":"0.46","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217980,"u":"42","run":"0.46","mem":"42.47","data":"Temporary ZIP file size: 394.15 MB. Approximate creation speed: 3.48 MB\/sec"}
+{"event":"archiveSize","time":1522217980,"u":"42","run":"0.46","mem":"42.47","data":"394.15 MB"}
+{"event":"message","time":1522217980,"u":"42","run":"0.46","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217984,"u":"10","run":"0.46","mem":"42.47","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217984,"u":"10","run":"0.46","mem":"42.47","data":"Temporary ZIP file size: 398.67 MB. Approximate creation speed: 3.4 MB\/sec"}
+{"event":"archiveSize","time":1522217984,"u":"10","run":"0.46","mem":"42.47","data":"398.67 MB"}
+{"event":"message","time":1522217984,"u":"10","run":"0.46","mem":"42.47","data":"Pong! Server replied."}
+{"event":"details","time":1522217984,"u":"53","run":"118.07","mem":"39.99","data":"Zip process exit code: 0"}
+{"event":"details","time":1522217984,"u":"53","run":"118.07","mem":"39.99","data":"Zip process reported: 0 warnings"}
+{"event":"details","time":1522217984,"u":"53","run":"118.07","mem":"39.99","data":"Moving Zip Archive file to local archive directory."}
+{"event":"details","time":1522217984,"u":"54","run":"118.09","mem":"39.99","data":"Zip Archive file moved to local archive directory."}
+{"event":"message","time":1522217984,"u":"54","run":"118.09","mem":"39.99","data":"Zip Archive file successfully created with no errors or actionable warnings."}
+{"event":"details","time":1522217984,"u":"54","run":"118.09","mem":"39.99","data":"Zip Archive file size: 421162273 bytes, owned by user:group 684:679 with permissions 0600"}
+{"event":"details","time":1522217984,"u":"54","run":"118.09","mem":"39.99","data":"Removing temporary directory."}
+{"event":"details","time":1522217984,"u":"54","run":"118.09","mem":"39.98","data":"The exec method for ZIP was successful."}
+{"event":"message","time":1522217984,"u":"55","run":"118.09","mem":"39.96","data":"Backup ZIP file successfully created."}
+{"event":"details","time":1522217984,"u":"55","run":"118.09","mem":"39.96","data":"Chmod of ZIP file to 0644 succeeded."}
+{"event":"details","time":1522217984,"u":"55","run":"118.09","mem":"39.96","data":"Saving meta data to zip comment."}
+{"event":"startAction","time":1522217984,"u":"55","run":"118.09","mem":"39.96","data":"zipCommentMeta"}
+{"event":"details","time":1522217985,"u":"86","run":"119.41","mem":"39.97","data":"exec (zip) set comment in file \/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_backups\/backup-cryptobandwagon_org-2018_03_28-06_17am-full-7mqd26sjwt.zip"}
+{"event":"finishAction","time":1522217985,"u":"87","run":"119.41","mem":"39.96","data":"zipCommentMeta"}
+{"event":"details","time":1522217985,"u":"87","run":"119.41","mem":"39.96","data":"Saved meta data to zip comment."}
+{"event":"details","time":1522217985,"u":"87","run":"119.41","mem":"39.98","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1522217985,"u":"87","run":"119.41","mem":"39.98","data":"Pinging mysqli."}
+{"event":"details","time":1522217985,"u":"87","run":"119.41","mem":"39.98","data":"Database Server connection status verified."}
+{"event":"details","time":1522217985,"u":"87","run":"119.41","mem":"39.99","data":"Fileoptions `7mqd26sjwt.txt` saved. 6308 bytes written."}
+{"event":"details","time":1522217985,"u":"87","run":"119.41","mem":"39.98","data":"Finished function `backup_zip_files`. Peak memory usage: 40.065 MB with BackupBuddy v7.3.0.1"}
+{"event":"finishFunction","time":1522217985,"u":"87","run":"119.41","mem":"39.98","data":"{\"function\":\"backup_zip_files\"}"}
+{"event":"details","time":1522217985,"u":"87","run":"119.41","mem":"39.98","data":"-----"}
+{"event":"details","time":1522217985,"u":"87","run":"119.41","mem":"39.98","data":"Closing & unlocking fileoptions."}
+{"event":"warnings","time":1522217985,"u":"87","run":"119.41","mem":"39.98","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1522217985,"u":"87","run":"119.41","mem":"39.98","data":"Scheduling Cron for `7mqd26sjwt`."}
+{"event":"details","time":1522217985,"u":"87","run":"119.41","mem":"39.98","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1522217985,"u":"87","run":"119.41","mem":"39.98","data":"Pinging mysqli."}
+{"event":"details","time":1522217985,"u":"87","run":"119.41","mem":"39.98","data":"Database Server connection status verified."}
+{"event":"details","time":1522217985,"u":"87","run":"119.41","mem":"39.98","data":"Scheduling next step to run at `1522217985` (localized time: Mar 28, 2018 6:19:45 am), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `7mqd26sjwt`."}
+{"event":"details","time":1522217985,"u":"87","run":"119.41","mem":"39.98","data":"Next step scheduled."}
+{"event":"startAction","time":1522217985,"u":"87","run":"119.41","mem":"39.98","data":"cronPass"}
+{"event":"cronParams","time":1522217985,"u":"87","run":"119.41","mem":"39.98","data":"eyJ0aW1lIjoxNTIyMjE3OTg1LCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjdtcWQyNnNqd3QiXX0="}
+{"event":"details","time":1522217985,"u":"87","run":"119.42","mem":"39.98","data":"Not calling spawn_cron()."}
+{"event":"details","time":1522217985,"u":"87","run":"119.42","mem":"39.98","data":"About to run next step (integrity_check expected). If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1522217985,"u":"87","run":"119.42","mem":"39.97","data":"Completed step function `backup_zip_files`."}
+{"event":"details","time":1522217988,"u":"83","run":"0.45","mem":"38.08","data":"--- New PHP process."}
+{"event":"details","time":1522217988,"u":"83","run":"0.45","mem":"38.08","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1522217988,"u":"83","run":"0.45","mem":"38.08","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1522217988,"u":"83","run":"0.45","mem":"38.08","data":"Reported PHP execution time - Configured: 30; Original: 30; Current: 30"}
+{"event":"details","time":1522217988,"u":"83","run":"0.45","mem":"38.08","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1522217988,"u":"83","run":"0.45","mem":"38.08","data":"Reported PHP memory limits - Configured: 256M; Original: 256M; Current: 256M"}
+{"event":"message","time":1522217988,"u":"83","run":"0.45","mem":"38.08","data":"Running process for serial `7mqd26sjwt`..."}
+{"event":"details","time":1522217988,"u":"87","run":"0.49","mem":"39.77","data":"About to load fileoptions data for serial `7mqd26sjwt`."}
+{"event":"details","time":1522217988,"u":"88","run":"0.50","mem":"39.87","data":"Fileoptions instance #39."}
+{"event":"details","time":1522217988,"u":"88","run":"0.50","mem":"39.88","data":"Created fileoptions lock file `7mqd26sjwt.txt.lock` with ID: 5abb3404d74a69.00128182."}
+{"event":"details","time":1522217988,"u":"88","run":"0.50","mem":"39.91","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217988,"u":"89","run":"0.51","mem":"39.91","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1522217988,"u":"89","run":"0.51","mem":"39.91","data":"cronPass"}
+{"event":"details","time":1522217988,"u":"91","run":"0.53","mem":"39.92","data":"Fileoptions `7mqd26sjwt.txt` saved. 6348 bytes written."}
+{"event":"details","time":1522217988,"u":"91","run":"0.53","mem":"39.91","data":"Found next step to run: `integrity_check`."}
+{"event":"details","time":1522217988,"u":"91","run":"0.53","mem":"39.91","data":"Peak memory usage: 39.975 MB"}
+{"event":"details","time":1522217988,"u":"91","run":"0.53","mem":"39.91","data":"-----"}
+{"event":"details","time":1522217988,"u":"91","run":"0.53","mem":"39.91","data":"Starting step function `integrity_check`. Attempt #1."}
+{"event":"startFunction","time":1522217988,"u":"91","run":"0.53","mem":"39.91","data":"{\"function\":\"integrity_check\",\"title\":\"Verifying backup file integrity\"}"}
+{"event":"milestone","time":1522217988,"u":"91","run":"0.53","mem":"39.91","data":"start_integrity"}
+{"event":"message","time":1522217988,"u":"91","run":"0.53","mem":"39.91","data":"Scanning and verifying backup file integrity."}
+{"event":"details","time":1522217988,"u":"91","run":"0.53","mem":"39.91","data":"Starting integrity check on `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_backups\/backup-cryptobandwagon_org-2018_03_28-06_17am-full-7mqd26sjwt.zip`."}
+{"event":"details","time":1522217988,"u":"91","run":"0.53","mem":"40.02","data":"Started backup_integrity_check() function for `7mqd26sjwt` for file `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_backups\/backup-cryptobandwagon_org-2018_03_28-06_17am-full-7mqd26sjwt.zip`."}
+{"event":"details","time":1522217988,"u":"91","run":"0.53","mem":"40.02","data":"Verifying comment in zip archive."}
+{"event":"details","time":1522217988,"u":"93","run":"0.55","mem":"40.03","data":"exec (unzip) retrieved comment in file \/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_backups\/backup-cryptobandwagon_org-2018_03_28-06_17am-full-7mqd26sjwt.zip"}
+{"event":"details","time":1522217988,"u":"93","run":"0.55","mem":"40.03","data":"NOTE: It is normal to see several \"File not found\" messages in the next several log lines."}
+{"event":"details","time":1522217988,"u":"93","run":"0.55","mem":"40.03","data":"Verifying DAT file in zip archive."}
+{"event":"details","time":1522217988,"u":"98","run":"0.60","mem":"40.04","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/backupbuddy_dat.php"}
+{"event":"details","time":1522217989,"u":"02","run":"0.64","mem":"40.04","data":"File not found (exec): wp-content\/uploads\/temp_7mqd26sjwt\/backupbuddy_dat.php"}
+{"event":"details","time":1522217989,"u":"04","run":"0.66","mem":"40.04","data":"File not found (exec): backupbuddy_dat.php"}
+{"event":"details","time":1522217989,"u":"04","run":"0.66","mem":"40.03","data":"Verifying database SQL file in zip archive."}
+{"event":"details","time":1522217989,"u":"04","run":"0.66","mem":"40.03","data":"Forcing to a single db_1.sql file was NOT enabled for this backup."}
+{"event":"details","time":1522217989,"u":"04","run":"0.66","mem":"40.03","data":"BackupBuddy v5.0+ format database detected."}
+{"event":"details","time":1522217989,"u":"04","run":"0.66","mem":"40.03","data":"Not database-only type backup."}
+{"event":"details","time":1522217989,"u":"09","run":"0.71","mem":"40.04","data":"File not found (exec): wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/db_1.sql"}
+{"event":"details","time":1522217989,"u":"09","run":"0.71","mem":"40.03","data":"PHP based database dump type."}
+{"event":"details","time":1522217989,"u":"14","run":"0.76","mem":"40.04","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_commentmeta.sql"}
+{"event":"details","time":1522217989,"u":"19","run":"0.81","mem":"40.04","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_comments.sql"}
+{"event":"details","time":1522217989,"u":"23","run":"0.85","mem":"40.04","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_links.sql"}
+{"event":"details","time":1522217989,"u":"23","run":"1.57","mem":"42.78","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217989,"u":"23","run":"1.57","mem":"42.78","data":"Waiting for function `integrity_check` to complete. Started 0.0903921127319 seconds ago."}
+{"event":"message","time":1522217989,"u":"23","run":"1.57","mem":"42.80","data":"Pong! Server replied."}
+{"event":"details","time":1522217989,"u":"28","run":"0.89","mem":"40.04","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_options.sql"}
+{"event":"details","time":1522217989,"u":"32","run":"0.94","mem":"40.04","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_postmeta.sql"}
+{"event":"details","time":1522217989,"u":"40","run":"1.02","mem":"40.04","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_posts.sql"}
+{"event":"details","time":1522217989,"u":"44","run":"1.06","mem":"40.04","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_term_relationships.sql"}
+{"event":"details","time":1522217989,"u":"48","run":"1.10","mem":"40.04","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_term_taxonomy.sql"}
+{"event":"details","time":1522217989,"u":"53","run":"1.15","mem":"40.04","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_termmeta.sql"}
+{"event":"details","time":1522217989,"u":"58","run":"1.20","mem":"40.04","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_terms.sql"}
+{"event":"details","time":1522217989,"u":"62","run":"1.24","mem":"40.04","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_usermeta.sql"}
+{"event":"details","time":1522217989,"u":"65","run":"1.27","mem":"40.04","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp_users.sql"}
+{"event":"details","time":1522217989,"u":"65","run":"1.27","mem":"40.03","data":"Verifying WordPress wp-config.php configuration file in zip archive."}
+{"event":"details","time":1522217989,"u":"68","run":"1.30","mem":"40.04","data":"File found (exec): wp-config.php"}
+{"event":"details","time":1522217989,"u":"72","run":"1.34","mem":"40.04","data":"File not found (exec): wp-content\/uploads\/backupbuddy_temp\/7mqd26sjwt\/wp-config.php"}
+{"event":"details","time":1522217989,"u":"72","run":"1.34","mem":"40.03","data":"Retrieving zip scan log."}
+{"event":"details","time":1522217989,"u":"72","run":"1.34","mem":"40.03","data":"Calculating integrity scan status,"}
+{"event":"details","time":1522217989,"u":"72","run":"1.34","mem":"40.03","data":"Status: `Pass`. Description: ``."}
+{"event":"details","time":1522217989,"u":"72","run":"1.34","mem":"40.03","data":"Getting file details such as size, timestamp, etc."}
+{"event":"details","time":1522217989,"u":"72","run":"1.34","mem":"40.03","data":"Saving backup file integrity check details."}
+{"event":"details","time":1522217989,"u":"72","run":"1.34","mem":"40.05","data":"Fileoptions `7mqd26sjwt.txt` saved. 7052 bytes written."}
+{"event":"milestone","time":1522217989,"u":"72","run":"1.34","mem":"39.92","data":"finish_integrity"}
+{"event":"details","time":1522217989,"u":"72","run":"1.34","mem":"39.93","data":"Fileoptions `7mqd26sjwt.txt` saved. 7100 bytes written."}
+{"event":"details","time":1522217989,"u":"72","run":"1.34","mem":"39.92","data":"Finished function `integrity_check`. Peak memory usage: 40.241 MB with BackupBuddy v7.3.0.1"}
+{"event":"finishFunction","time":1522217989,"u":"72","run":"1.34","mem":"39.92","data":"{\"function\":\"integrity_check\"}"}
+{"event":"details","time":1522217989,"u":"73","run":"1.34","mem":"39.92","data":"-----"}
+{"event":"details","time":1522217989,"u":"73","run":"1.34","mem":"39.92","data":"Closing & unlocking fileoptions."}
+{"event":"warnings","time":1522217989,"u":"73","run":"1.34","mem":"39.92","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1522217989,"u":"73","run":"1.34","mem":"39.92","data":"Scheduling Cron for `7mqd26sjwt`."}
+{"event":"details","time":1522217989,"u":"73","run":"1.34","mem":"39.94","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1522217989,"u":"73","run":"1.35","mem":"39.94","data":"Pinging mysqli."}
+{"event":"details","time":1522217989,"u":"73","run":"1.35","mem":"39.94","data":"Database Server connection status verified."}
+{"event":"details","time":1522217989,"u":"73","run":"1.35","mem":"39.94","data":"Scheduling next step to run at `1522217989` (localized time: Mar 28, 2018 6:19:49 am), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `7mqd26sjwt`."}
+{"event":"details","time":1522217989,"u":"73","run":"1.35","mem":"39.95","data":"Next step scheduled."}
+{"event":"startAction","time":1522217989,"u":"73","run":"1.35","mem":"39.95","data":"cronPass"}
+{"event":"cronParams","time":1522217989,"u":"73","run":"1.35","mem":"39.95","data":"eyJ0aW1lIjoxNTIyMjE3OTg5LCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIjdtcWQyNnNqd3QiXX0="}
+{"event":"details","time":1522217989,"u":"73","run":"1.35","mem":"39.94","data":"Not calling spawn_cron()."}
+{"event":"details","time":1522217989,"u":"73","run":"1.35","mem":"39.94","data":"About to run next step (post_backup expected). If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1522217989,"u":"73","run":"1.35","mem":"39.94","data":"Completed step function `integrity_check`."}
+{"event":"details","time":1522217993,"u":"67","run":"0.38","mem":"38.08","data":"--- New PHP process."}
+{"event":"details","time":1522217993,"u":"67","run":"0.38","mem":"38.08","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1522217993,"u":"67","run":"0.38","mem":"38.08","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1522217993,"u":"67","run":"0.38","mem":"38.08","data":"Reported PHP execution time - Configured: 30; Original: 30; Current: 30"}
+{"event":"details","time":1522217993,"u":"68","run":"0.38","mem":"38.08","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1522217993,"u":"68","run":"0.38","mem":"38.08","data":"Reported PHP memory limits - Configured: 256M; Original: 256M; Current: 256M"}
+{"event":"message","time":1522217993,"u":"68","run":"0.38","mem":"38.08","data":"Running process for serial `7mqd26sjwt`..."}
+{"event":"details","time":1522217993,"u":"70","run":"0.41","mem":"39.77","data":"About to load fileoptions data for serial `7mqd26sjwt`."}
+{"event":"details","time":1522217993,"u":"70","run":"0.41","mem":"39.87","data":"Fileoptions instance #39."}
+{"event":"details","time":1522217993,"u":"70","run":"0.41","mem":"39.88","data":"Created fileoptions lock file `7mqd26sjwt.txt.lock` with ID: 5abb3409acaff7.74567996."}
+{"event":"details","time":1522217993,"u":"70","run":"0.41","mem":"39.91","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217993,"u":"70","run":"0.41","mem":"39.91","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1522217993,"u":"70","run":"0.41","mem":"39.91","data":"cronPass"}
+{"event":"details","time":1522217993,"u":"70","run":"0.41","mem":"39.93","data":"Fileoptions `7mqd26sjwt.txt` saved. 7144 bytes written."}
+{"event":"details","time":1522217993,"u":"71","run":"0.41","mem":"39.91","data":"Found next step to run: `post_backup`."}
+{"event":"details","time":1522217993,"u":"71","run":"0.41","mem":"39.91","data":"Peak memory usage: 39.984 MB"}
+{"event":"details","time":1522217993,"u":"71","run":"0.41","mem":"39.91","data":"-----"}
+{"event":"details","time":1522217993,"u":"71","run":"0.41","mem":"39.91","data":"Starting step function `post_backup`. Attempt #1."}
+{"event":"startFunction","time":1522217993,"u":"71","run":"0.41","mem":"39.91","data":"{\"function\":\"post_backup\",\"title\":\"Cleaning up\"}"}
+{"event":"message","time":1522217993,"u":"71","run":"0.41","mem":"39.92","data":"Cleaning up after backup."}
+{"event":"details","time":1522217993,"u":"71","run":"0.41","mem":"39.92","data":"Removing temp data directory."}
+{"event":"details","time":1522217993,"u":"71","run":"0.42","mem":"39.92","data":"Trimming old archives (if needed)."}
+{"event":"details","time":1522217993,"u":"71","run":"0.42","mem":"39.92","data":"Trimmed 0 old archives based on settings archive limits."}
+{"event":"details","time":1522217993,"u":"71","run":"0.42","mem":"39.92","data":"Final ZIP file size: 401.65 MB"}
+{"event":"archiveSize","time":1522217993,"u":"71","run":"0.42","mem":"39.92","data":"401.65 MB"}
+{"event":"details","time":1522217993,"u":"71","run":"0.42","mem":"39.92","data":"Updating statistics for last backup completed and number of edits since last backup."}
+{"event":"details","time":1522217993,"u":"72","run":"0.43","mem":"40.21","data":"Cleaning up any old temporary zip directories in: `\/home3\/mauibeats\/cryptobandwagon.org\/wp-content\/uploads\/backupbuddy_temp\/`. If no recent backups then the temp directory will also be purged."}
+{"event":"message","time":1522217993,"u":"72","run":"0.43","mem":"40.21","data":"Finished cleaning up."}
+{"event":"archiveInfo","time":1522217993,"u":"72","run":"0.43","mem":"40.21","data":"{\"file\":\"backup-cryptobandwagon_org-2018_03_28-06_17am-full-7mqd26sjwt.zip\",\"url\":\"http:\\\/\\\/cryptobandwagon.org\\\/wp-admin\\\/admin-ajax.php?action=pb_backupbuddy_backupbuddy&function=download_archive&backupbuddy_backup=backup-cryptobandwagon_org-2018_03_28-06_17am-full-7mqd26sjwt.zip\"}"}
+{"event":"details","time":1522217993,"u":"72","run":"0.43","mem":"40.22","data":"Fileoptions `7mqd26sjwt.txt` saved. 7208 bytes written."}
+{"event":"details","time":1522217993,"u":"72","run":"0.43","mem":"40.21","data":"Finished function `post_backup`. Peak memory usage: 40.306 MB with BackupBuddy v7.3.0.1"}
+{"event":"finishFunction","time":1522217993,"u":"72","run":"0.43","mem":"40.21","data":"{\"function\":\"post_backup\"}"}
+{"event":"details","time":1522217993,"u":"72","run":"0.43","mem":"40.21","data":"-----"}
+{"event":"details","time":1522217993,"u":"72","run":"0.43","mem":"40.21","data":"No more backup steps remain. Finishing..."}
+{"event":"details","time":1522217993,"u":"72","run":"0.43","mem":"40.23","data":"Fileoptions `7mqd26sjwt.txt` saved. 7248 bytes written."}
+{"event":"startFunction","time":1522217993,"u":"72","run":"0.43","mem":"40.21","data":"{\"function\":\"backup_success\",\"title\":\"Backup completed successfully.\"}"}
+{"event":"finishFunction","time":1522217993,"u":"72","run":"0.43","mem":"40.21","data":"{\"function\":\"backup_success\"}"}
+{"event":"details","time":1522217993,"u":"72","run":"0.43","mem":"40.21","data":"Closing & unlocking fileoptions."}
+{"event":"details","time":1522217993,"u":"72","run":"0.43","mem":"40.20","data":"Completed step function `post_backup`."}
+{"event":"details","time":1522217993,"u":"94","run":"1.28","mem":"42.78","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1522217993,"u":"94","run":"1.28","mem":"42.78","data":"--- New PHP process."}
+{"event":"details","time":1522217993,"u":"94","run":"1.28","mem":"42.78","data":"Completed backup final ZIP file size: 401.65 MB"}
+{"event":"archiveSize","time":1522217993,"u":"94","run":"1.28","mem":"42.78","data":"401.65 MB"}
+{"event":"message","time":1522217993,"u":"94","run":"1.28","mem":"42.78","data":"Backup successfully completed in 2 minutes with BackupBuddy v7.3.0.1. Trigger: `manual`."}
+{"event":"milestone","time":1522217993,"u":"94","run":"1.28","mem":"42.78","data":"finish_backup"}
+{"event":"message","time":1522217993,"u":"94","run":"1.28","mem":"42.81","data":"Pong! Server replied."}

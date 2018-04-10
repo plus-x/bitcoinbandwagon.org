@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'mauibeat_bitcoinbandwagon' );
+define( 'DB_NAME', 'mauibeat_cryptobandwagon' );
 
 /** MySQL database username */
-define( 'DB_USER', 'mauibeat_btcbanw' );
+define( 'DB_USER', 'mauibeat_cryptob' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'b1tco!nbandwagon' );
+define( 'DB_PASSWORD', 'Shnarfing1!' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
