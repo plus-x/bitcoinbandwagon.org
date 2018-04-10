@@ -1,0 +1,59 @@
+{"event":"details","time":1516456939,"u":"42","run":"0.49","mem":"42.43","data":"----- Initiating master send function for BackupBuddy v7.3.0.1 for basename file: `remote-send-test.php`. Post-send deletion: "}
+{"event":"details","time":1516456939,"u":"42","run":"0.49","mem":"42.54","data":"Created fileoptions lock file `send-TEST-iey9ktwostij.txt.lock` with ID: 5a634beb67ff95.89815859."}
+{"event":"details","time":1516456939,"u":"42","run":"0.49","mem":"42.54","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1516456939,"u":"42","run":"0.49","mem":"42.54","data":"Fileoptions `send-TEST-iey9ktwostij.txt` saved. 1124 bytes written."}
+{"event":"details","time":1516456939,"u":"42","run":"0.49","mem":"42.54","data":"Initializing destination."}
+{"event":"details","time":1516456939,"u":"42","run":"0.49","mem":"42.54","data":"Loading destination init file `\/home3\/mauibeats\/bitcoinbandwagon\/wp-content\/plugins\/backupbuddy\/destinations\/ftp\/init.php`."}
+{"event":"details","time":1516456939,"u":"42","run":"0.49","mem":"42.54","data":"Destination init loaded."}
+{"event":"details","time":1516456939,"u":"42","run":"0.49","mem":"42.54","data":"Initialized `ftp` destination."}
+{"event":"details","time":1516456939,"u":"42","run":"0.49","mem":"42.54","data":"Applying destination-specific defaults."}
+{"event":"details","time":1516456939,"u":"42","run":"0.49","mem":"42.54","data":"Applying global destination defaults."}
+{"event":"details","time":1516456939,"u":"42","run":"0.49","mem":"42.54","data":"Calling destination-specific send method."}
+{"event":"details","time":1516456939,"u":"42","run":"0.49","mem":"42.54","data":"FTP class send() function started."}
+{"event":"details","time":1516456939,"u":"43","run":"0.50","mem":"42.55","data":"Connected to FTP."}
+{"event":"details","time":1516456942,"u":"71","run":"3.78","mem":"42.61","data":"Sending email error notification with subject `BackupBuddy Error - http:\/\/bitcoinbandwagon.org` to recipient(s): `bioniclove@gmail.com`."}
+{"event":"error","time":1516456942,"u":"82","run":"3.89","mem":"43.37","data":"Error #8239823: One or more errors were encountered attempting to send. See log above for more information such as specific error numbers or the following details. Details: ``."}
+{"event":"details","time":1516456942,"u":"82","run":"3.89","mem":"43.38","data":"Looking for remote send log file to send in error email: `\/home3\/mauibeats\/bitcoinbandwagon\/wp-content\/uploads\/pb_backupbuddy\/status-remote_send-TEST-iey9ktwostij_10i6zun540z9uys.txt`."}
+{"event":"details","time":1516456942,"u":"82","run":"3.89","mem":"43.38","data":"Remote send log file found. Attaching to error email."}
+{"event":"details","time":1516456942,"u":"83","run":"3.90","mem":"43.41","data":"Sending email error notification with subject `BackupBuddy Error - http:\/\/bitcoinbandwagon.org` to recipient(s): `bioniclove@gmail.com`."}
+{"event":"details","time":1516456942,"u":"93","run":"4.00","mem":"43.38","data":"Fileoptions instance #45."}
+{"event":"details","time":1516456942,"u":"93","run":"4.00","mem":"43.38","data":"Created fileoptions lock file `send-TEST-iey9ktwostij.txt.lock` with ID: 5a634beee4d652.22199943."}
+{"event":"details","time":1516456942,"u":"93","run":"4.00","mem":"43.39","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"details","time":1516456942,"u":"93","run":"4.01","mem":"43.39","data":"Fileoptions `send-TEST-iey9ktwostij.txt` saved. 1244 bytes written."}
+{"event":"details","time":1516456942,"u":"93","run":"4.01","mem":"43.39","data":"Completed send function. Failure. Post-send deletion will be skipped if enabled."}
+{"event":"details","time":1516456942,"u":"94","run":"4.01","mem":"43.39","data":"About to load fileoptions data."}
+{"event":"details","time":1516456942,"u":"94","run":"4.01","mem":"43.39","data":"Fileoptions instance #16."}
+{"event":"details","time":1516456942,"u":"94","run":"4.01","mem":"43.39","data":"Created fileoptions lock file `send-TEST-iey9ktwostij.txt.lock` with ID: 5a634beee59c52.26831244."}
+{"event":"details","time":1516456942,"u":"94","run":"4.01","mem":"43.39","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"details","time":1516456942,"u":"94","run":"4.01","mem":"43.39","data":"Fileoptions data loaded."}
+{"event":"details","time":1516456942,"u":"94","run":"4.01","mem":"43.39","data":"Ending send() function pass."}
+{"event":"details","time":1516549113,"u":"38","run":"0.47","mem":"38.21","data":"----- Initiating master send function for BackupBuddy v7.3.0.1 for basename file: `remote-send-test.php`. Post-send deletion: "}
+{"event":"details","time":1516549113,"u":"39","run":"0.48","mem":"38.32","data":"Created fileoptions lock file `send-TEST-iey9ktwostij.txt.lock` with ID: 5a64b3f95f3344.35868887."}
+{"event":"details","time":1516549113,"u":"39","run":"0.48","mem":"38.32","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"details","time":1516549113,"u":"39","run":"0.48","mem":"38.32","data":"~~~ This is RETRY attempt #1 of a previous failed send step potentially due to timeout. ~~~"}
+{"event":"details","time":1516549113,"u":"39","run":"0.48","mem":"38.32","data":"Fileoptions `send-TEST-iey9ktwostij.txt` saved. 1240 bytes written."}
+{"event":"details","time":1516549113,"u":"39","run":"0.48","mem":"38.32","data":"Initializing destination."}
+{"event":"details","time":1516549113,"u":"39","run":"0.49","mem":"38.32","data":"Loading destination init file `\/home3\/mauibeats\/bitcoinbandwagon\/wp-content\/plugins\/backupbuddy\/destinations\/ftp\/init.php`."}
+{"event":"details","time":1516549113,"u":"40","run":"0.50","mem":"38.39","data":"Destination init loaded."}
+{"event":"details","time":1516549113,"u":"40","run":"0.50","mem":"38.39","data":"Initialized `ftp` destination."}
+{"event":"details","time":1516549113,"u":"40","run":"0.50","mem":"38.39","data":"Applying destination-specific defaults."}
+{"event":"details","time":1516549113,"u":"40","run":"0.50","mem":"38.39","data":"Applying global destination defaults."}
+{"event":"details","time":1516549113,"u":"40","run":"0.50","mem":"38.39","data":"Calling destination-specific send method."}
+{"event":"details","time":1516549113,"u":"40","run":"0.50","mem":"38.39","data":"FTP class send() function started."}
+{"event":"details","time":1516549113,"u":"55","run":"0.65","mem":"38.40","data":"Connected to FTP."}
+{"event":"details","time":1516549117,"u":"13","run":"4.23","mem":"38.46","data":"Sending email error notification with subject `BackupBuddy Error - http:\/\/bitcoinbandwagon.org` to recipient(s): `bioniclove@gmail.com`."}
+{"event":"error","time":1516549117,"u":"30","run":"4.39","mem":"39.22","data":"Error #8239823: One or more errors were encountered attempting to send. See log above for more information such as specific error numbers or the following details. Details: ``."}
+{"event":"details","time":1516549117,"u":"30","run":"4.39","mem":"39.22","data":"Looking for remote send log file to send in error email: `\/home3\/mauibeats\/bitcoinbandwagon\/wp-content\/uploads\/pb_backupbuddy\/status-remote_send-TEST-iey9ktwostij_10i6zun540z9uys.txt`."}
+{"event":"details","time":1516549117,"u":"30","run":"4.39","mem":"39.22","data":"Remote send log file found. Attaching to error email."}
+{"event":"details","time":1516549117,"u":"30","run":"4.40","mem":"39.25","data":"Sending email error notification with subject `BackupBuddy Error - http:\/\/bitcoinbandwagon.org` to recipient(s): `bioniclove@gmail.com`."}
+{"event":"details","time":1516549117,"u":"42","run":"4.51","mem":"39.23","data":"Fileoptions instance #45."}
+{"event":"details","time":1516549117,"u":"42","run":"4.51","mem":"39.23","data":"Created fileoptions lock file `send-TEST-iey9ktwostij.txt.lock` with ID: 5a64b3fd66dcd9.60546897."}
+{"event":"details","time":1516549117,"u":"42","run":"4.51","mem":"39.24","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"details","time":1516549117,"u":"42","run":"4.51","mem":"39.24","data":"Fileoptions `send-TEST-iey9ktwostij.txt` saved. 1240 bytes written."}
+{"event":"details","time":1516549117,"u":"42","run":"4.52","mem":"39.23","data":"Completed send function. Failure. Post-send deletion will be skipped if enabled."}
+{"event":"details","time":1516549117,"u":"42","run":"4.52","mem":"39.23","data":"About to load fileoptions data."}
+{"event":"details","time":1516549117,"u":"42","run":"4.52","mem":"39.23","data":"Fileoptions instance #16."}
+{"event":"details","time":1516549117,"u":"42","run":"4.52","mem":"39.23","data":"Created fileoptions lock file `send-TEST-iey9ktwostij.txt.lock` with ID: 5a64b3fd67b7d7.00660839."}
+{"event":"details","time":1516549117,"u":"42","run":"4.52","mem":"39.24","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"details","time":1516549117,"u":"42","run":"4.52","mem":"39.24","data":"Fileoptions data loaded."}
+{"event":"details","time":1516549117,"u":"42","run":"4.52","mem":"39.23","data":"Ending send() function pass."}
