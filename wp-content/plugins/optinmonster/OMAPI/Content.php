@@ -394,7 +394,7 @@ class OMAPI_Content {
 	public function migrate() {
 		?>
 		<p><?php _e( 'Your campaigns created within WordPress using the original OptinMonster plugin can be recreated manually in your OptinMonster account.', 'optin-monster-api' ); ?></p>
-		<p><a href="http://optinmonster.com/docs/old-wordpress-customers-migrating-to-the-new-optinmonster-app/"><?php _e( 'Read the full post about the changes.')?></a></p>
+		<p><a href="https://optinmonster.com/docs/old-wordpress-customers-migrating-to-the-new-optinmonster-app/"><?php _e( 'Read the full post about the changes.')?></a></p>
 		<?php
 	}
 

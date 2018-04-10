@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: OptinMonster API
- * Plugin URI:	http://optinmonster.com
+ * Plugin URI:  https://optinmonster.com
  * Description: OptinMonster API plugin to connect your WordPress site to your OptinMonster account.
- * Author:		OptinMonster Team
- * Author URI:	https://optinmonster.com
- * Version:		1.3.2
+ * Author:      OptinMonster Team
+ * Author URI:  https://optinmonster.com
+ * Version:     1.3.4
  * Text Domain: optin-monster-api
  * Domain Path: languages
  *
@@ -20,7 +20,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with OptinMonster. If not, see <http://www.gnu.org/licenses/>.
+ * along with OptinMonster. If not, see <https://www.gnu.org/licenses/>.
  */
 
 // Exit if accessed directly.
@@ -60,7 +60,7 @@ class OMAPI {
 	 *
 	 * @var string
 	 */
-	public $version = '1.3.2';
+	public $version = '1.3.4';
 
 	/**
 	 * The name of the plugin.
@@ -142,7 +142,7 @@ class OMAPI {
 	public function init() {
 
 		// Define necessary plugin constants.
-		define( 'OPTINMONSTER_API', '//a.optnmstr.com/app/js/api.min.js' );
+		define( 'OPTINMONSTER_API', 'https://a.optmstr.com/app/js/api.min.js' );
 
 		// Load our global option.
 		$this->load_option();
@@ -261,20 +261,21 @@ class OMAPI {
 			wp_parse_args(
 				$args,
 				array(
-					'post_type'		=> 'omapi',
-					'no_found_rows' => true,
-					'cache_results' => false,
-					'nopaging'		=> true
+					'no_found_rows'          => true,
+					'nopaging'               => true,
+					'post_type'              => 'omapi',
+					'posts_per_page'         => -1,
+					'update_post_term_cache' => false,
 				)
 			)
 		);
+
 		if ( empty( $optins ) ) {
 			return false;
 		}
 
 		// Return the optin data.
 		return $optins;
-
 	}
 
 	/**

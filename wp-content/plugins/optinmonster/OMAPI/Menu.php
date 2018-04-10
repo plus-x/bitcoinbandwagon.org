@@ -303,7 +303,7 @@ class OMAPI_Menu {
 		$plugins        = get_plugins();
 		$active_plugins = get_option( 'active_plugins', array() );
 		$used_plugins   = "\n";
-		$api_ping       = wp_remote_request( 'http://api.optinmonster.com/v1/ping' );
+		$api_ping       = wp_remote_request( 'https://api.optinmonster.com/v1/ping' );
 		foreach ( $plugins as $plugin_path => $plugin ) {
 			if ( ! in_array( $plugin_path, $active_plugins ) ) {
 				continue;
@@ -1159,7 +1159,7 @@ class OMAPI_Menu {
 		$field ='';
 
 		$field .= '<div class="omapi-support-links ' . $setting . '"><h3>' . $title . '</h3><ul>';
-		$field .= '<li><a target="_blank" href="' . esc_url( 'http://optinmonster.com/docs/' ) . '">'. __('Documentation','optin-monster-api') . '</a></li>';
+		$field .= '<li><a target="_blank" href="' . esc_url( 'https://optinmonster.com/docs/' ) . '">'. __('Documentation','optin-monster-api') . '</a></li>';
 		$field .= '<li><a target="_blank" href="' . esc_url( 'https://wordpress.org/plugins/optinmonster/changelog/' ) . '">'. __('Changelog','optin-monster-api') . '</a></li>';
 		$field .= '<li><a target="_blank" href="' . esc_url( 'https://app.optinmonster.com/account/support/' ) . '">'. __('Create a Support Ticket','optin-monster-api') . '</a></li>';
 		$field .= '</ul></div>';
@@ -1431,7 +1431,7 @@ class OMAPI_Menu {
 
 		// Return the sas link if we have a sas ID
 		if ( ! empty( $omSasId ) ) {
-			return 'http://www.shareasale.com/r.cfm?u='
+			return 'https://www.shareasale.com/r.cfm?u='
 				   . urlencode( trim( $omSasId ) )
 				   . '&b=601672&m=49337&afftrack=&urllink=optinmonster.com';
 		}
@@ -1475,7 +1475,7 @@ class OMAPI_Menu {
 
 		// Return the trial link if we have a trial ID
 		if ( ! empty( $omTrialId ) ) {
-			return 'http://www.shareasale.com/r.cfm?u='
+			return 'https://www.shareasale.com/r.cfm?u='
 				   . urlencode( trim( $omTrialId ) )
 				   . '&b=601672&m=49337&afftrack=&urllink=optinmonster.com%2Ffree-trial%2F%3Fid%3D' . urlencode( trim( $omTrialId ) );
 		}

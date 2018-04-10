@@ -1,5 +1,47 @@
 == Changelog ==
 
+= 1.4.5.2 =
+- Fixed: Incorrect documenation link for Input Mask.
+- Fixed: Input Mask value disappearing when form builder is refreshed.
+
+= 1.4.5.1 =
+- Fixed: Dynamic choices not displaying correctly for Multiple Choice and Checkbox fields.
+
+= 1.4.5 =
+- Added: Image choices feature with Checkbox and Multiple Choice fields; Images can now be uploaded and displayed with your choices!
+- Added: Custom input masks for Single Line Text fields (Advanced Options).
+- Added: No-Conflict Mode for Google reCAPTCHA (Settings > reCAPTCHA). Removes other reCAPTCHA occurrences, to prevent conflicts.
+- Added: SSL Connection Test (Tools > System Info). Quicky verify that your web host correct supports SSL connections.
+- Added: `{user_full_name}` Smart Tag, displays users first and last name.
+- Added: Discalimer / Terms of Service Display formatting option for Checkbox fields (Advanced Options).
+- Added: Basic CSS styling for `disabled` fields.
+- Added: Uninstall routine, available from Settings > Misc.
+- Added: Form builder performance improvements. Editing a form with hundreds of fields is now 500%+ faster!
+- Changed: New Settings tab: Misc, moved Hide Annoucements option to new tab.
+- Changed: `{user_display}` Smart Tag diplays user's display name (in most cases, this is the user's name).
+- Changed: All `<form>` attributes can now be changed via `wpforms_frontend_form_atts` filter.
+- Fixed: Form builder tab icon alignment conflicts with third party plugin CSS.
+- Fixed: Smart Tag dropdown display issues in the form builder.
+- Fixed: Form builder drag and drop area disappearing if all fields are removed from a form.
+
+= 1.4.4.1 =
+- Changed: Textdomain loading to a later priority.
+- Changed: Allow the `WPForms_Builder` class to be accessible.
+- Changed: Move the confirmation message `wpautop` to an earlier priority to not conflict with content added using filters.
+- Fixed: Form builder templates area not aligning correctly in some browsers.
+- Fixed: Incorrect permissions check for annoucements feed.
+
+= 1.4.4 =
+- Added: Advanced setting for Multiple Choice and Checkbox fields to randomize choices
+- Changed: Admin menu icons now uses SVG instead of custom font icon
+- Changed: Reviewed all translatable strings, improved escaping and formatting
+- Changed: External links have `rel="noopener noreferrer"` improve security
+- Changed: Permission check centralized into a single function (`wpforms_current_user_can()`)
+- Changed: Required label field text centralized into a single function (`wpforms_get_required_label()`)
+- Fixed: Typo in German translation
+- Fixed: Required email provider connection fields not highlighting when left empty
+- Fixed: Inside form builder, notification name area breaking into multiple lines on smaller screens
+
 = 1.4.3 =
 - Added: Early filter for form data before form output, `wpforms_frontend_form_data`
 - Changed: Standardize and tweak modal window button styles

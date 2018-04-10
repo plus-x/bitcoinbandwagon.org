@@ -401,7 +401,7 @@ class OMAPI_Welcome {
 	public function footer( $text ) {
 
 		$new_text = sprintf( __( 'Thank you for using <a href="%1$s" target="_blank">OptinMonster</a>!', 'optin-monster-api' ),
-			'http://optinmonster.com'
+			'https://optinmonster.com'
 		);
 		return str_replace( '</span>', '', $text ) . ' | ' . $new_text . '</span>';
 

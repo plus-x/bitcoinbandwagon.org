@@ -94,6 +94,7 @@ We also knew that our developer friends may want to extend contact forms further
 * <a href="https://wpforms.com/addons/conditional-logic-addon/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion" rel="friend">Smart Conditional Logic</a> - Show or hide fields and contact form sections based on user behavior.
 * <a href="https://wpforms.com/addons/geolocation-addon/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion" rel="friend">Geolocation</a> - Display location information about your users.
 * <a href="https://wpforms.com/addons/custom-catpcha-addon/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion" rel="friend">Custom Captchas</a> - Create custom captchas for your contact form.
+* <a href="https://wpforms.com/addons/surveys-and-polls-addon/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion" rel="friend">Surveys and Polls</a> - Easily create surveys forms and analyze the data with interactive reports.
 * Want us to add something else? Suggest a contact form feature and we'll get it added!
 
 After reading this feature list, you can probably imagine why WPForms is the best WordPress contact form plugin in the market.
@@ -112,8 +113,6 @@ This plugin is created by <a href="http://www.jaredatchison.com/" rel="friend" t
 If you like this plugin, then consider checking out our other projects:
 
 * <a href="http://optinmonster.com/" rel="friend" title="OptinMonster">OptinMonster</a> - Get More Email Subscribers
-* <a href="http://soliloquywp.com/" rel="friend" title="Soliloquy">Soliloquy</a> - Best WordPress Slider Plugin
-* <a href="http://enviragallery.com/" rel="friend" title="Envira Gallery">Envira Gallery</a> - Best WordPress Gallery Plugin
 * <a href="https://www.monsterinsights.com/" rel="friend" title="MonsterInsights">MonsterInsights</a> - Best Google Analytics Plugin for WordPress
 
 Visit <a href="http://www.wpbeginner.com/" rel="friend" title="WPBeginner">WPBeginner</a> to learn from our <a href="http://www.wpbeginner.com/category/wp-tutorials/" rel="friend" title="WordPress Tutorials">WordPress Tutorials</a> and find out about other <a href="http://www.wpbeginner.com/category/plugins/" rel="friend" title="Best WordPress Plugins">best WordPress plugins</a>.
@@ -129,7 +128,9 @@ Visit <a href="http://www.wpbeginner.com/" rel="friend" title="WPBeginner">WPBeg
 == Screenshots ==
 
 1. WPForms Drag & Drop Online Form Builder
-2. WPForms Form Preview
+2. Adding New Field
+3. Form Preview
+4. Form Settings
 
 == Frequently Asked Questions ==
 
@@ -209,6 +210,48 @@ Thank you
 Syed Balkhi
 
 == Changelog ==
+
+= 1.4.5.2 =
+- Fixed: Incorrect documenation link for Input Mask.
+- Fixed: Input Mask value disappearing when form builder is refreshed.
+
+= 1.4.5.1 =
+- Fixed: Dynamic choices not displaying correctly for Multiple Choice and Checkbox fields.
+
+= 1.4.5 =
+- Added: Image choices feature with Checkbox and Multiple Choice fields; Images can now be uploaded and displayed with your choices!
+- Added: Custom input masks for Single Line Text fields (Advanced Options).
+- Added: No-Conflict Mode for Google reCAPTCHA (Settings > reCAPTCHA). Removes other reCAPTCHA occurrences, to prevent conflicts.
+- Added: SSL Connection Test (Tools > System Info). Quicky verify that your web host correct supports SSL connections.
+- Added: `{user_full_name}` Smart Tag, displays users first and last name.
+- Added: Discalimer / Terms of Service Display formatting option for Checkbox fields (Advanced Options).
+- Added: Basic CSS styling for `disabled` fields.
+- Added: Uninstall routine, available from Settings > Misc.
+- Added: Form builder performance improvements. Editing a form with hundreds of fields is now 500%+ faster!
+- Changed: New Settings tab: Misc, moved Hide Annoucements option to new tab.
+- Changed: `{user_display}` Smart Tag diplays user's display name (in most cases, this is the user's name).
+- Changed: All `<form>` attributes can now be changed via `wpforms_frontend_form_atts` filter.
+- Fixed: Form builder tab icon alignment conflicts with third party plugin CSS.
+- Fixed: Smart Tag dropdown display issues in the form builder.
+- Fixed: Form builder drag and drop area disappearing if all fields are removed from a form.
+
+= 1.4.4.1 =
+- Changed: Textdomain loading to a later priority.
+- Changed: Allow the `WPForms_Builder` class to be accessible.
+- Changed: Move the confirmation message `wpautop` to an earlier priority to not conflict with content added using filters.
+- Fixed: Form builder templates area not aligning correctly in some browsers.
+- Fixed: Incorrect permissions check for annoucements feed.
+
+= 1.4.4 =
+- Added: Advanced setting for Multiple Choice and Checkbox fields to randomize choices
+- Changed: Admin menu icons now uses SVG instead of custom font icon
+- Changed: Reviewed all translatable strings, improved escaping and formatting
+- Changed: External links have `rel="noopener noreferrer"` improve security
+- Changed: Permission check centralized into a single function (`wpforms_current_user_can()`)
+- Changed: Required label field text centralized into a single function (`wpforms_get_required_label()`)
+- Fixed: Typo in German translation
+- Fixed: Required email provider connection fields not highlighting when left empty
+- Fixed: Inside form builder, notification name area breaking into multiple lines on smaller screens
 
 = 1.4.3 =
 - Added: Early filter for form data before form output, `wpforms_frontend_form_data`

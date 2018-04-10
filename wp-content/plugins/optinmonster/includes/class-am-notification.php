@@ -42,24 +42,6 @@ if ( ! class_exists( 'AM_Notification' ) ) {
 		public $plugin_version;
 
 		/**
-		 * The list of installed plugins.
-		 *
-		 * @since 1.0.0
-		 *
-		 * @var array
-		 */
-		public $plugin_list = array();
-
-		/**
-		 * The list of installed themes.
-		 *
-		 * @since 1.0.0
-		 *
-		 * @var string
-		 */
-		public $theme_list = array();
-
-		/**
 		 * Flag if a notice has been registered.
 		 *
 		 * @since 1.0.0
@@ -123,9 +105,7 @@ if ( ! class_exists( 'AM_Notification' ) ) {
 					'body' => array(
 						'slug'              => $this->plugin,
 						'version'           => $this->plugin_version,
-						'last_notification' => $notification_id,
-						'plugins'           => $this->get_plugins_list(),
-						'themes'            => $this->get_themes_list(),
+						'last_notification' => $notification_id
 					),
 				) ) );
 
@@ -158,8 +138,6 @@ if ( ! class_exists( 'AM_Notification' ) ) {
 						update_post_meta( $new_notification_id, 'type', sanitize_text_field( trim( $data->type ) ) );
 						update_post_meta( $new_notification_id, 'dismissable', (bool) $data->dismissible ? 1 : 0 );
 						update_post_meta( $new_notification_id, 'location', function_exists( 'wp_json_encode' ) ? wp_json_encode( $data->location ) : json_encode( $data->location ) );
-						update_post_meta( $new_notification_id, 'plugins', function_exists( 'wp_json_encode' ) ? wp_json_encode( $data->plugins ) : json_encode( $data->plugins ) );
-						update_post_meta( $new_notification_id, 'theme', sanitize_text_field( trim( $data->theme ) ) );
 						update_post_meta( $new_notification_id, 'version', sanitize_text_field( trim( $data->version ) ) );
 						update_post_meta( $new_notification_id, 'viewed', 0 );
 						update_post_meta( $new_notification_id, 'expiration', $data->expiration ? absint( $data->expiration ) : false );
@@ -194,62 +172,6 @@ if ( ! class_exists( 'AM_Notification' ) ) {
 					'post_type' => 'amn_' . $this->plugin,
 				) + $args
 			);
-		}
-
-		/**
-		 * Retrieve a list of plugins that are currently installed.
-		 *
-		 * @since 1.0.0
-		 *
-		 * @return array An array of plugins that are currently installed.
-		 */
-		public function get_plugins_list() {
-			if ( ! empty( $this->plugin_list ) ) {
-				return $this->plugin_list;
-			}
-
-			if ( ! function_exists( 'get_plugins' ) ) {
-				require_once ABSPATH . 'wp-admin/includes/plugin.php';
-			}
-
-			$plugins = get_plugins();
-
-			foreach ( $plugins as $slug => $plugin ) {
-				$this->plugin_list[ $slug ] = array(
-					'slug'    => $slug,
-					'name'    => $plugin['Name'],
-					'version' => $plugin['Version'],
-					'active'  => is_plugin_active( $slug ),
-				);
-			}
-
-			return $this->plugin_list;
-		}
-
-		/**
-		 * Retrieve a list of themes that are currently installed.
-		 *
-		 * @since 1.0.0
-		 *
-		 * @return array An array of themes that are currently installed.
-		 */
-		public function get_themes_list() {
-			if ( ! empty( $this->theme_list ) ) {
-				return $this->theme_list;
-			}
-
-			$themes = wp_get_themes();
-
-			foreach ( $themes as $slug => $theme ) {
-				$this->theme_list[ $slug ] = array(
-					'slug'    => $slug,
-					'name'    => $theme->Name,
-					'version' => $theme->Version,
-					'active'  => (string) wp_get_theme() === $theme->Name,
-				);
-			}
-
-			return $this->theme_list;
 		}
 
 		/**
@@ -423,26 +345,6 @@ if ( ! class_exists( 'AM_Notification' ) ) {
 					// Possibly check for a constant.
 					if ( empty( $key ) && defined( 'MONSTERINSIGHTS_LICENSE_KEY' ) && is_string( MONSTERINSIGHTS_LICENSE_KEY ) && strlen( MONSTERINSIGHTS_LICENSE_KEY ) > 10 ) {
 						$key = MONSTERINSIGHTS_LICENSE_KEY;
-					}
-					break;
-				case 'sol' :
-					$option = get_option( 'soliloquy' );
-					$key    = is_array( $option ) && isset( $option['key'] ) ? $option['key'] : '';
-					$level  = is_array( $option ) && isset( $option['type'] ) ? $option['type'] : '';
-
-					// Possibly check for a constant.
-					if ( empty( $key ) && defined( 'SOLILOQUY_LICENSE_KEY' ) ) {
-						$key = SOLILOQUY_LICENSE_KEY;
-					}
-					break;
-				case 'envira' :
-					$option = get_option( 'envira_gallery' );
-					$key    = is_array( $option ) && isset( $option['key'] ) ? $option['key'] : '';
-					$level  = is_array( $option ) && isset( $option['type'] ) ? $option['type'] : '';
-
-					// Possibly check for a constant.
-					if ( empty( $key ) && defined( 'ENVIRA_LICENSE_KEY' ) ) {
-						$key = ENVIRA_LICENSE_KEY;
 					}
 					break;
 				case 'om' :

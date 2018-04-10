@@ -113,7 +113,7 @@ class SocialPopup_Admin {
 		add_action('wp_ajax_spu_enable_ajax_notice_handler', array( $this, 'ajax_notice_handler' ) );
 
 		//Tinymce
-		add_filter( 'tiny_mce_before_init', array($this, 'tinymce_init') );
+		add_filter( 'tiny_mce_before_init', array($this, 'tinymce_init'), 9999 );
 		add_action( 'admin_init', array( $this, 'editor_styles' ) );
 		add_action( 'init',  array( $this, 'register_tiny_buttons' ) );
 
@@ -707,8 +707,12 @@ class SocialPopup_Admin {
 		if( get_post_type() !== 'spucpt') {
 			return $args;
 		}
+		// dirty hax, WPML replace our function so let's try to get theirs and add to ours
+		if( strpos($args['setup'], 'function(ed)') !== false) {
+			$func = rtrim( str_replace(array('function(ed) {','function(ed){'), '', $args['setup']),'}');
+		}
 
-		$args['setup'] = 'function(ed) { if(typeof SPU_ADMIN === \'undefined\') { return; } ed.onInit.add(SPU_ADMIN.onTinyMceInit);if(typeof SPUP_ADMIN === \'undefined\') { return; } ed.onInit.add(SPUP_ADMIN.onTinyMceInit); }';
+		$args['setup'] = 'function(ed) { if(typeof SPU_ADMIN === \'undefined\') { return; } ed.onInit.add(SPU_ADMIN.onTinyMceInit);if(typeof SPUP_ADMIN === \'undefined\') { return; } ed.onInit.add(SPUP_ADMIN.onTinyMceInit);'.$func.' }';
 
 		return $args;
 	}
@@ -926,7 +930,8 @@ class SocialPopup_Admin {
 	 * Extra checks needed on admin init
 	 */
 	public function extra_checks(){
-		if( defined('SPUP_VERSION') && version_compare(SPUP_VERSION, '1.9.1', '<') ){
+		// second check it's because on 1.9 by mistake was not added SPUP_VERSION
+		if( ( defined('SPUP_VERSION') && version_compare(SPUP_VERSION, '1.9.1', '<') ) || ( defined( 'SPUP_PLUGIN_FILE') && ! defined('SPUP_VERSION') ) ){
 			deactivate_plugins( array('popups-premium/popups-premium.php'));
 			update_option('spu_pair_plugins',true);
 			add_action( 'admin_notices', array('SocialPopup_Notices','pair_plugins' ));
